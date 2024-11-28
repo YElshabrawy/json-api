@@ -1,0 +1,7 @@
+ {
+  "android": {
+    "latest": "1.1.0",
+    "minimum": "1.0.5",
+    "url": "https://example.com/update.apk"
+  }
+}
