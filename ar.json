@@ -403,6 +403,14 @@
         "description": " {{status}} :حالة الطلب "
     },
     "profile": {
+        "account-details": {
+            "_title": "تفاصيل الحساب",
+            "country": "الدولة",
+            "default-warehouse": "المخزن الافتراضي",
+            "sa": "المملكة العربية السعودية",
+            "uae": "الإمارات العربية المتحدة",
+            "username": "اسم المستخدم"
+        },
         "cod-balance": "رصيد الدفع عند الاستلام",
         "cod-deposit-a/c-number": "رقم حساب الإيداع عند الدفع عند الاستلام",
         "cod-message": "مثال( XXXXXX | YYYYY )\nالرقم الاول يكون (XXXXXX)  CDM ID و الثاني يكون  {{idType}} ID (YYYYY)",
