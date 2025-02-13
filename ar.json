@@ -1,612 +1,628 @@
 {
-  "actions": {
-    "delivery": {
-      "arrived_at_delivery": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب :وصل الي الموقع"
-      },
-      "automatically_in_transit": {
-        "title": "حالة الطلب",
-        "message": "تم تحديث الطلب: نقل تلقائيًا إلى الترانزيت"
-      },
-      "automatically_picked_up": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب :تم الاستلام تلقائيا"
-      },
-      "completed": {
-        "title": "حالة الايصال",
-        "message": "حالة الايصال :تمت"
-      },
-      "delivered": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب:تم الايصال"
-      },
-      "dropped_off": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب:تم الايصال"
-      },
-      "in_transit": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب :في الترانريت"
-      },
-      "picked_up": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب :تم الاستلام"
-      },
-      "unable_to_return": {
-        "title": "غير قادر علي الرجوع",
-        "message": "غير قادر علي الرجوع"
-      },
-      "undelivered": {
-        "title": "حالة الطلب",
-        "message": "حالة الطلب :لم يتم الايصال"
-      }
-    },
-    "return": {
-      "arrived_at_delivery": {
-        "message": "حالة الطلب :وصل الي الموقع",
-        "title": "حالة الطلب"
-      },
-      "completed": {
-        "message": "حالة الايصال :تمت",
-        "title": "حالة الايصال"
-      },
-      "delivered": {
-        "message": "حالة الطلب:تم الايصال",
-        "title": "حالة الطلب"
-      },
-      "picked_up": {
-        "message": "حالة الطلب :تم الاستلام",
-        "title": "حالة الطلب"
-      },
-      "undelivered": {
-        "message": "حالة الطلب :لم يتم الايصال",
-        "title": "حالة الطلب"
-      }
-    }
-  },
-  "app-menu": {
-    "_title": "القائمة",
-    "cash-deposit": "ايداع النقود",
-    "cash-relay": "تسليم النقود",
-    "language": "تغيير اللغة",
-    "more": "المزيد",
-    "my-status": "الحالة",
-    "new-app-update": "تحديث جديد للتطبيق",
-    "online": "متصل",
-    "offline": "غير متصل",
-    "cash-deposit-proof": "ارسال اثبات ايداع النقود",
-    "update-online-state": "تحديث الحالة"
-  },
-  "auth": {
-    "description": "سوف تتلقى {{type}} مع كلمة مرور لمرة واحدة على هذا الرقم،  يرجى التأكد من أن هذا الرقم في متناول يدك!",
-    "phone-login": "المتابعة من خلال رقم الهاتف",
-    "whatsapp-login": "المتابعه من خلال الواتساب",
-    "contact-number": " ما هو رقم {{type}}",
-    "enter-contact-number": " من فضلك ادخل رقم {{type}} للتحقق من الهوية",
-    "enter-your-number-here": "ادخل الرقم هنا",
-    "an-sms": "رسالة",
-    "a-whatsapp-message": "رسالة علي الواتس اب",
-    "use-a-different-login-method": "تسجيل الدخول بطريقة اخري",
-    "only-numbers-are-allowed": "يسمح بالارقام فقط",
-    "open-whatsapp-and-send-the-word-to": "افتح الواتساب وارسل الكلمة <bold>{{text}}</bold> الي <bold>{{number}}</bold>.",
-    "resend-code": "اعد ارسال الكود",
-    "resend-otp": "اعد ارسال OTP",
-    "send-again-message": "الرسالة لم تصل؟ يمكنك ارسالها مرة اخري <bold>{{time}}</bold>",
-    "diff-phone-number": "استخدم رقم هاتف اخر",
-    "verify-contact-number": "تاكيد رقم  {{type}} ",
-    "verify-contact-number-message": "لقد تم ارسال كود من ٦ ارقام , <bold>{{number}}</bold> من فضلك ادخله بالاسفل للمتابعه.",
-    "open-whatsapp": "قم بفتح الواتساب",
-    "login-with-otp": "تسجيل الدخول باستخدام OTP",
-    "otp-instructions": "يرجى التحقق من رسالة OTP على هاتفك عبر SMS وواتساب"
-  },
-  "camera": {
-    "audio-permission": "إذن لاستخدام التسجيل الصوتي",
-    "audio-permission-message": "نحتاج إلى إذنك لاستخدام الصوت الخاص بك",
-    "camera-permission": "إذن لاستخدام الكاميرا",
-    "camera-permission-message": "نحن بحاجة إلى إذنك لاستخدام الكاميرا الخاصة بك",
-    "no-camera-permission": "ليس لديك إذن الكاميرا لفتح الكاميرا. يرجى تقديم إذن الكاميرا"
-  },
-  "cash-deposit": {
-    "amount": "المبلغ المودع",
-    "bank-proof": "صورة إيصال حصلت عليها من الصراف أو جهاز الإيداع النقدي.",
-    "bank-name": "اسم البنك",
-    "bt-proof-success-message": "تمت بنجاح",
-    "bt-proof-success": "إيداع نقدي",
-    "cash-deposit-proof": "إثبات الإيداع النقدي",
-    "cash-deposit-proof-text": "لتقديم إثبات الإيداع النقدي ، يرجى إدخال تفاصيل الإيداع أدناه.",
-    "cash-proof": "إرسال إثبات الإيداع النقدي",
-    "deposit-date": "تاريخ الإيداع",
-    "no-selected-bank-error": "يرجى تحديد البنك",
-    "receipt-image-error": "يرجى تحديد صورة الاستلام",
-    "receipt-photo": "صورة الاستلام",
-    "reference-number-error": "الرجاء إدخال رقم التحديث",
-    "select-photo": "التقط صورة",
-    "transaction-reference-number": "الرقم المرجعي للمعاملة",
-    "valid-amount-error": "يرجى إدخال مبلغ متاح",
-    "valid-date-error": "يرجى تحديد تاريخ متاح"
-  },
-  "cash-relay": {
-    "heading": "تسليم النقود الي الكاشير",
-    "qr-code": "تسليم النقود QR Code",
-    "message": "QR code حتي يتم التحويل سلم النقود الي الكاشير ،واظهر ال ",
-    "current-cash-balance": "الرصيد النقدي الحالي",
-    "refresh-cash-balance": "تحديث الرصيد النقدي"
-  },
-  "cir": {
-    "add": "إضافة",
-    "capture-photo": "التقاط صورة",
-    "gtin": "GTIN",
-    "item-details": "تفاصيل العنصر",
-    "item-photos": "صور المنتج",
-    "mark-picked-up": " تم الاستلام",
-    "modal-msg": "تم تعيين عملية مرتجع جديدة لك. يرجى التنسيق مع المشرف قبل بدء الرحلة.",
-    "modal-title": "تعيين التقاط مرتجع",
-    "no": "لا",
-    "of": "من",
-    "product-attributes": "سمات المنتج",
-    "qc-question": "مطابقة الاسم والوصف؟",
-    "return-check": "فحص المرتجع",
-    "return-details": "تفاصيل المرتجع",
-    "return-nr": "رقم المرتجع",
-    "return-pickup": "التقاط مرتجع",
-    "return-reason": "سبب الإرجاع",
-    "serial-number": "الرقم التسلسلي",
-    "scan-awb": "مسح AWB",
-    "scan-msg": "لف العنصر، الصق & امسح AWB",
-    "step": "خطوة",
-    "swipe-to-start-pickup": "اسحب لبدء الالتقاط",
-    "yes": "نعم"
-  },
-  "common": {
-    "aed": "درهم",
-    "call": "اتصل",
-    "call-manager": "اتصل بالمدير",
-    "check-in": "تسجيل الدخول",
-    "check-out": "تسجيل الخروج",
-    "cancel": "إلغاء",
-    "completed": "تمت",
-    "delete": "الغاء",
-    "direction": "الاتجاه",
-    "done": "تم",
-    "failed": "فشل",
-    "retry": "إعادة المحاولة",
-    "login": "تسجيل الدخول",
-    "no": "لا",
-    "number": "رقم",
-    "ok": "موافق",
-    "phone": "الهاتف",
-    "phone-number": "رقم الهاتف",
-    "continue": "متابعة",
-    "confirm": "تأكيد",
-    "submit": "إرسال",
-    "staging": "- تجربة",
-    "sign-out": "تسجيل الخروج",
-    "support": "الدعم",
-    "pending": "معلق",
-    "order-update": "حالة الطلب",
-    "uploading": "تحميل",
-    "whatsapp": "الواتساب",
-    "whatsapp-number": "رقم الواتساب",
-    "whatsapp-chat": "محادثة واتساب",
-    "version": "نسخة"
-  },
-  "customer-preferences": {
-    "avoid_calling": "تجنب الاتصال",
-    "delivery_code_required": "طلب رمز التوصيل",
-    "dont_leave_at_door": "لا يمكن الترك عند الباب",
-    "dont_ring_the_bell": "لا تدق الجرس",
-    "handover-to-runner": "تسليم إلى أحد المشاه",
-    "id_capture_required": "مطلوب هوية العميل",
-    "is_relay": "تسليم إلى أحد المشاه",
-    "leave_it_at_my_door": "اترك عند الباب",
-    "contact-receiver": "اتصل بالمستلم"
-  },
-  "delivery-history": {
-    "_title": "سجل التوصيل",
-    "filter": "اختار",
-    "no-data": "لاتوجد بيانات",
-    "cod": " نقدا ",
-    "prepaid": "مسبق الدفع",
-    "customer-tip": "بقشيش:",
-    "filter-orders": "اختار الطلبات",
-    "all-orders": "كل الطلبات",
-    "order-with-collected-cash": "الطلبات نقدا",
-    "arder-as-associate-driver": "طلبات مساعدة",
-    "order-with-tips": "طلبات مع بقشيش",
-    "return-pickups": "استلام مرتجع",
-    "subtitle": "سجل التوصيل في آخر 24 ساعة"
-  },
-  "delivery-proof": {
-    "_title": "سلمت الطلب للعميل أم تركت عند الباب ؟",
-    "delivery-proof": "إثبات التسليم",
-    "delivery-proof-required": "مطلوب إثبات التسليم",
-    "failed": "فشل",
-    "message": "هل قمت بتسليم الطلب - شخصيًا - إلى العميل ، أم تركت الطلب عند الباب؟",
-    "handed-to-customer": "قمت بالتسليم للعميل",
-    "left-by-the-door": "تركت الطلب عند الباب",
-    "no-photo": "لم يتم إضافة أي صورة حتى الآن",
-    "upload-from-gallery": "اضافة من المعرض",
-    "take-photo": "التقط صورة",
-    "add-more-photos": "اضف المزيد من الصور",
-    "error-title": "تجاوز حد الصور",
-    "error-message": "يمكنك تحميل 3 صور فقط"
-  },
-  "delivery-summary": {
-    "_title": "ملخص التوصيل",
-    "associate-deliveries": "توصيلات مساعدة",
-    "attendance": "الحضور",
-    "average-time": "متوسط الوقت",
-    "checked-in-days": "ايام التسجيل",
-    "day": "يوم",
-    "days": "ايام",
-    "day-starts-at-6am": "يبدأ اليوم في الساعة {{time}} صباحًا.",
-    "day-will-start-after-6am": "اليوم / الشهر التالي سيبا الساعة ٠٦:٠٠ ص",
-    "cash": "الدفع النقدي",
-    "cash_deposits": "الايداع النقدي",
-    "delivery": "التوصيل",
-    "deliveries": "التوصيلات",
-    "filter": "اختار",
-    "filter-orders": "اختر عرض التاريخ للتفضيل",
-    "future-date": "التاريخ / الشهر في المستقبل غير مسموح به",
-    "hours": "ساعة",
-    "jobs": "المهمات",
-    "max-time": "أقصى وقت",
-    "min": "دقيقة",
-    "month": "شهر",
-    "orders": "طلب",
-    "primary-deliveries": "توصيلات أساسية",
-    "return-pickups": "استلام مرتجع",
-    "subtitle": "ملخص التوصيل يوم/شهر",
-    "tips": "البقشيش",
-    "total-check-in-time": "اجمالي وقت التسجيل",
-    "total-cash-collected": "إجمالي المبالغ المحصلة",
-    "total-cash-deposited": "إجمالي الإيداع النقدي",
-    "total-tips": "اجمالي الطلب(قبل وبعد التوصيل)",
-    "tips-info-title": "دورة توزيع البقشيش",
-    "tips-info-message": "اجمالي البقشيش سوف يودع في حسابك يوم ١٥ من الشهر اللاحق",
-    "x-hrs": "<time>{{time}}</time> ساعة",
-    "x-min": "<time>{{time}}</time> دقيقة"
-  },
-  "error": {
-    "_title": "خطا",
-    "bank-list": "قائمة البنك",
-    "bank-transfer": "حوالة بنكية",
-    "check-in-out": " لا يمكنك {{status}}  لديك مهمه توصيل نشطة ",
-    "call-reasons": "لم نتمكن من الحصول على سبب اتصال العميل",
-    "contact-customer": "اتصل بالعميل",
-    "empty-partner-list": "قائمة الشريك فارغة",
-    "firebase-token-error": "خطأ في رمز Firebase",
-    "invalid-otp": "غير متاح OTP",
-    "invalid-number": "  رقم {{type}} غير متاح .",
-    "location": "موقع خاطئ",
-    "max-limit-reached": "يمكنك تحميل ايصال واحد فقط",
-    "otp": "OTP خطأ",
-    "partner-list": "قائمة الشريك",
-    "polygon": "Polygon",
-    "qr-code": "QR كود",
-    "receipt": "ايصال",
-    "select-partner": "قم باختيار شريك",
-    "signed-url": "Signed Url",
-    "scan": "خطا مسح",
-    "scan-package": "مسح الطرود",
-    "scan-packages": "مسح الطرود",
-    "theres-no-user-account-associated-with-this-number-or-your-account-has-been-disabled": "لا يوجد حساب مستخدم مرتبط بهذا الرقم، أو أن حسابك تم تعطيله",
-    "update-online-state": "تحديث الحالة عبر الإنترنت",
-    "unable-load-reasons": "اسباب عدم القدرة علي التحميل",
-    "unable-call-reason": "غير قادر على إرسال سبب اتصال العميل",
-    "user-info": "بيانات العميل",
-    "whatsapp-not-found": "لا يوجد واتساب في هذا الهاتف",
-    "wrong-package-scanned": "تم مسح طرد خاطئ",
-    "da-state": "حالة السائق",
-    "scan-error": "خطأ في المسح",
-    "unable-to-return-reasons": "أسباب عدم القدرة على العودة",
-    "undelivered-reasons": "أسباب عدم التسليم",
-    "geo-fence": "أنت على بعد {{distance}} من موقع العميل. يُرجى الانتقال إلى مسافة {{thresholdedDistance}} متر من موقع العميل والمحاولة مرة أخرى."
-  },
-  "permissions": {
-    "background": {
-      "_title": " اذن الموقع في الخلفية",
-      "buttonNeutral": "اسالني لاحقا",
-      "buttonNegative": "االغاء",
-      "buttonPositive": "السماح",
-      "message": "الاذن بمعرفة الموقع في الخلفية"
-    },
-    "foreground": {
-      "_title": "اذن الموقع",
-      "buttonNeutral": "اسالني لاحقا",
-      "buttonNegative": "االغاء",
-      "buttonPositive": "السماح",
-      "message": "الاذن بمعرفة الموقع"
-    },
-    "notification": {
-      "_title": "إذن الإشعارات",
-      "buttonNeutral": "اسالني لاحقا",
-      "buttonNegative": "االغاء",
-      "buttonPositive": "السماح",
-      "message": "السماح بالوصول إلى الإشعارات"
-    },
-    "signal-not-available": "الاشارة غير متاحة"
-  },
-  "mandatory-update": {
-    "description": "تحتاج إلى تحديث التطبيق قبل استخدامه.",
-    "new-version": "يتوفر إصدار جديد من هذا التطبيق.",
-    "required-app-update": "طلب تحديث التطبيق",
-    "update-app": "تحديث التطبيق"
-  },
-  "modals": {
-    "batched": {
-      "_title": "تم العثور على طلبات مجمعة",
-      "message": "يرجى التحقق من الطلبات المجمعة"
-    },
-    "cancelled-request": {
-      "_title": "طلب الإلغاء",
-      "message": "تم طلب إلغاء الطلب. يرجى مراجعة تفاصيل الطلب."
-    },
-    "confirmation": {
-      "_title": "نافذة التأكيد",
-      "message": "هل أنت متأكد؟"
-    },
-    "notice": {
-      "_title": "تنويه",
-      "back": "رجوع",
-      "call-anyway": "اتصل على أي حال",
-      "message": "طلب هذا العميل عدم الاتصال به ما لم يكن عاجلاً."
-    },
-    "reasons": {
-      "undelivered": {
-        "_title": "لم تصل",
-        "codes": {
-          "customer_address_inaccessible": "عنوان العميل غير قابل للوصول أو غير صحيح",
-          "too_far_location": "موقع العميل بعيد جدًا."
+    "actions": {
+        "delivery": {
+            "arrived_at_delivery": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب :وصل الي الموقع"
+            },
+            "automatically_in_transit": {
+                "title": "حالة الطلب",
+                "message": "تم تحديث الطلب: نقل تلقائيًا إلى الترانزيت"
+            },
+            "automatically_picked_up": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب :تم الاستلام تلقائيا"
+            },
+            "completed": {
+                "title": "حالة الايصال",
+                "message": "حالة الايصال :تمت"
+            },
+            "delivered": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب:تم الايصال"
+            },
+            "dropped_off": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب:تم الايصال"
+            },
+            "in_transit": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب :في الترانريت"
+            },
+            "picked_up": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب :تم الاستلام"
+            },
+            "unable_to_return": {
+                "title": "غير قادر علي الرجوع",
+                "message": "غير قادر علي الرجوع"
+            },
+            "undelivered": {
+                "title": "حالة الطلب",
+                "message": "حالة الطلب :لم يتم الايصال"
+            }
+        },
+        "return": {
+            "arrived_at_delivery": {
+                "message": "حالة الطلب :وصل الي الموقع",
+                "title": "حالة الطلب"
+            },
+            "completed": {
+                "message": "حالة الايصال :تمت",
+                "title": "حالة الايصال"
+            },
+            "delivered": {
+                "message": "حالة الطلب:تم الايصال",
+                "title": "حالة الطلب"
+            },
+            "picked_up": {
+                "message": "حالة الطلب :تم الاستلام",
+                "title": "حالة الطلب"
+            },
+            "undelivered": {
+                "message": "حالة الطلب :لم يتم الايصال",
+                "title": "حالة الطلب"
+            }
         }
-      },
-      "unable-to-return": {
-        "_title": "غير قادر علي الرجوع",
-        "unable-to-return-to-wh": "غير قادر على العودة إلى المستودع",
-        "codes": {
-          "shift_ended": "انتهت نوبتي."
-        },
-        "warning-msg": "سيتم إنهاء إجراءات خروجك من المستودع."
-      },
-      "contact-customer": {
-        "_title": "سبب الاتصال بالعميل",
-        "are-you-sure-you-want-to-call-the-customer": "هل أنت متأكد أنك ترغب في {{contactType}} العميل؟",
-        "contact-type": {
-          "call": "اتصال",
-          "whatsapp_message": "رسالة"
-        },
-        "codes": {
-          "address_location_issues": "مشاكل بالعنوان/الموقع",
-          "missing_address_details": "التفاصيل المفقودة",
-          "need_gate_access": "مشكلة في البوابة/الأمن",
-          "no_answer_at_door": "لا يوجد رد عند الباب",
-          "other": "آخر",
-          "unable_to_reach_location": "علامة العنوان غير دقيقة"
-        },
-        "leave-at-door-message": "لقد طلب العميل <bold>ترك الطلب عند الباب</bold>. هل لا تزال ترغب في {{contactType}}هم؟",
-        "need_gate_access": "بحاجة إلى الوصول عبر البوابة/الأمن",
-        "no_answer_at_door": "لا توجد إجابة عند الباب",
-        "other-issue": "مشكلة أخرى",
-        "please-describe-your-issue": "من فضلك صف مشكلتك.",
-        "type-your-text-here": "اكتب نصك هنا"
-      }
     },
-    "safety-gear": {
-      "_title": "معدات السلامة",
-      "heading": "السلامة أولاً",
-      "message": "تذكر أن ترتدي معدات الحماية الخاصة بك عند كل عملية توصيل."
-    }
-  },
-  "order-status-toast": {
-    "title": "حالة الطلب",
-    "description": " {{status}} :حالة الطلب "
-  },
-  "profile": {
-    "cod-balance": "رصيد الدفع عند الاستلام",
-    "cod-deposit-a/c-number": "رقم حساب الإيداع عند الدفع عند الاستلام",
-    "cod-message": "مثال( XXXXXX | YYYYY )\nالرقم الاول يكون (XXXXXX)  CDM ID و الثاني يكون  {{idType}} ID (YYYYY)",
-    "check-another-warehouse": "سجل في مخزن اخر",
-    "checked-in": "مسجل",
-    "driver-id": "رقم السائق",
-    "my-profile": "الملف الشخصي",
-    "vehicle-type": "نوع المركبة"
-  },
-  "states": {
-    "blocked": {
-      "blocked": "لقد تم حظرك",
-      "call-ds": "اتصل بالمخزن",
-      "cod-limit": {
-        "_title": "الحد النقدي",
-        "description": "  درهم .الرجاء تسليم النقود حتي يتم رفع الحظر {{amount}} لديك اكثر من",
-        "title": "تعدي الحد النقدي"
-      },
-      "complaints": {
-        "_title": "شكاوي",
-        "description": "تلقينا شكاوى من العملاء. يرجى الاتصال بالمخزن لإلغاء الحظر",
-        "title": "شكاوي من العملاء"
-      },
-      "multi-rejections": {
-        "_title": "رفض طلبات متعدد",
-        "description": "لقد رفضت أو تجاهلت العديد من إشعارات الطلبات ، وتم حظرك لمدة 15 دقيقة",
-        "title": "رفض طلبات متعدد"
-      }
+    "app-menu": {
+        "_title": "القائمة",
+        "cash-deposit": "ايداع النقود",
+        "cash-relay": "تسليم النقود",
+        "language": "تغيير اللغة",
+        "more": "المزيد",
+        "my-status": "الحالة",
+        "new-app-update": "تحديث جديد للتطبيق",
+        "online": "متصل",
+        "offline": "غير متصل",
+        "cash-deposit-proof": "ارسال اثبات ايداع النقود",
+        "update-online-state": "تحديث الحالة"
+    },
+    "auth": {
+        "description": "سوف تتلقى {{type}} مع كلمة مرور لمرة واحدة على هذا الرقم،  يرجى التأكد من أن هذا الرقم في متناول يدك!",
+        "phone-login": "المتابعة من خلال رقم الهاتف",
+        "whatsapp-login": "المتابعه من خلال الواتساب",
+        "contact-number": " ما هو رقم {{type}}",
+        "enter-contact-number": " من فضلك ادخل رقم {{type}} للتحقق من الهوية",
+        "enter-your-number-here": "ادخل الرقم هنا",
+        "an-sms": "رسالة",
+        "a-whatsapp-message": "رسالة علي الواتس اب",
+        "use-a-different-login-method": "تسجيل الدخول بطريقة اخري",
+        "only-numbers-are-allowed": "يسمح بالارقام فقط",
+        "open-whatsapp-and-send-the-word-to": "افتح الواتساب وارسل الكلمة <bold>{{text}}</bold> الي <bold>{{number}}</bold>.",
+        "resend-code": "اعد ارسال الكود",
+        "resend-otp": "اعد ارسال OTP",
+        "send-again-message": "الرسالة لم تصل؟ يمكنك ارسالها مرة اخري <bold>{{time}}</bold>",
+        "diff-phone-number": "استخدم رقم هاتف اخر",
+        "verify-contact-number": "تاكيد رقم  {{type}} ",
+        "verify-contact-number-message": "لقد تم ارسال كود من ٦ ارقام , <bold>{{number}}</bold> من فضلك ادخله بالاسفل للمتابعه.",
+        "open-whatsapp": "قم بفتح الواتساب",
+        "login-with-otp": "تسجيل الدخول باستخدام OTP",
+        "otp-instructions": "يرجى التحقق من رسالة OTP على هاتفك عبر SMS وواتساب"
+    },
+    "camera": {
+        "audio-permission": "إذن لاستخدام التسجيل الصوتي",
+        "audio-permission-message": "نحتاج إلى إذنك لاستخدام الصوت الخاص بك",
+        "camera-permission": "إذن لاستخدام الكاميرا",
+        "camera-permission-message": "نحن بحاجة إلى إذنك لاستخدام الكاميرا الخاصة بك",
+        "no-camera-permission": "ليس لديك إذن الكاميرا لفتح الكاميرا. يرجى تقديم إذن الكاميرا"
+    },
+    "cash-deposit": {
+        "amount": "المبلغ المودع",
+        "bank-proof": "صورة إيصال حصلت عليها من الصراف أو جهاز الإيداع النقدي.",
+        "bank-name": "اسم البنك",
+        "bt-proof-success-message": "تمت بنجاح",
+        "bt-proof-success": "إيداع نقدي",
+        "cash-deposit-proof": "إثبات الإيداع النقدي",
+        "cash-deposit-proof-text": "لتقديم إثبات الإيداع النقدي ، يرجى إدخال تفاصيل الإيداع أدناه.",
+        "cash-proof": "إرسال إثبات الإيداع النقدي",
+        "deposit-date": "تاريخ الإيداع",
+        "no-selected-bank-error": "يرجى تحديد البنك",
+        "receipt-image-error": "يرجى تحديد صورة الاستلام",
+        "receipt-photo": "صورة الاستلام",
+        "reference-number-error": "الرجاء إدخال رقم التحديث",
+        "select-photo": "التقط صورة",
+        "transaction-reference-number": "الرقم المرجعي للمعاملة",
+        "valid-amount-error": "يرجى إدخال مبلغ متاح",
+        "valid-date-error": "يرجى تحديد تاريخ متاح"
+    },
+    "cash-relay": {
+        "heading": "تسليم النقود الي الكاشير",
+        "qr-code": "تسليم النقود QR Code",
+        "message": "QR code حتي يتم التحويل سلم النقود الي الكاشير ،واظهر ال ",
+        "current-cash-balance": "الرصيد النقدي الحالي",
+        "refresh-cash-balance": "تحديث الرصيد النقدي"
+    },
+    "cir": {
+        "add": "إضافة",
+        "capture-photo": "التقاط صورة",
+        "gtin": "GTIN",
+        "item-details": "تفاصيل العنصر",
+        "item-photos": "صور المنتج",
+        "mark-picked-up": " تم الاستلام",
+        "modal-msg": "تم تعيين عملية مرتجع جديدة لك. يرجى التنسيق مع المشرف قبل بدء الرحلة.",
+        "modal-title": "تعيين التقاط مرتجع",
+        "no": "لا",
+        "of": "من",
+        "product-attributes": "سمات المنتج",
+        "qc-question": "مطابقة الاسم والوصف؟",
+        "return-check": "فحص المرتجع",
+        "return-details": "تفاصيل المرتجع",
+        "return-nr": "رقم المرتجع",
+        "return-pickup": "التقاط مرتجع",
+        "return-reason": "سبب الإرجاع",
+        "serial-number": "الرقم التسلسلي",
+        "scan-awb": "مسح AWB",
+        "scan-msg": "لف العنصر، الصق & امسح AWB",
+        "step": "خطوة",
+        "swipe-to-start-pickup": "اسحب لبدء الالتقاط",
+        "yes": "نعم"
     },
     "common": {
-      "packages": {
-        "_title": "حزم",
-        "including-these-items": "تشمل هذه العناصر",
-        "order-with-multiple-packages": "طلب مع حزم متعددة",
-        "please-pick-up": "يرجى استلام",
-        "do-not-forget": "لا تنسَ:",
-        "confirm-package-count": "تأكيد عدد الحزم",
-        "wrong-package-count": "عدد الحزم غير صحيح"
-      }
+        "aed": "درهم",
+        "call": "اتصل",
+        "call-manager": "اتصل بالمدير",
+        "check-in": "تسجيل الدخول",
+        "check-out": "تسجيل الخروج",
+        "cancel": "إلغاء",
+        "completed": "تمت",
+        "delete": "الغاء",
+        "direction": "الاتجاه",
+        "done": "تم",
+        "failed": "فشل",
+        "retry": "إعادة المحاولة",
+        "login": "تسجيل الدخول",
+        "no": "لا",
+        "number": "رقم",
+        "ok": "موافق",
+        "phone": "الهاتف",
+        "phone-number": "رقم الهاتف",
+        "continue": "متابعة",
+        "confirm": "تأكيد",
+        "submit": "إرسال",
+        "staging": "- تجربة",
+        "sign-out": "تسجيل الخروج",
+        "support": "الدعم",
+        "pending": "معلق",
+        "order-update": "حالة الطلب",
+        "uploading": "تحميل",
+        "whatsapp": "الواتساب",
+        "whatsapp-number": "رقم الواتساب",
+        "whatsapp-chat": "محادثة واتساب",
+        "version": "نسخة"
     },
-    "customer-id": {
-      "_title": "مطلوب بطاقة التحقق الشخصية للعميل",
-      "description": "هذا الطلب يتطلب التحقق من البطاقة الشخصية للعميل. يرجى التحقق من اسم العميل و أخذ صورة لبطاقة التحقق الشخصية.",
-      "customer-name": "اسم العميل:",
-      "add-customer-id-photos": "إضافة صورة بطاقة تحقق الشخصية للعميل",
-      "take-photo": "التقاط صورة",
-      "add-photo": "إضافة صورة",
-      "you-exceeded-images-count-limit": "لقد تجاوزت الحد الأقصى لعدد الصور",
-      "images-limit": "العدد الأقصي للصور"
+    "customer-preferences": {
+        "avoid_calling": "تجنب الاتصال",
+        "delivery_code_required": "طلب رمز التوصيل",
+        "dont_leave_at_door": "لا يمكن الترك عند الباب",
+        "dont_ring_the_bell": "لا تدق الجرس",
+        "handover-to-runner": "تسليم إلى أحد المشاه",
+        "id_capture_required": "مطلوب هوية العميل",
+        "is_relay": "تسليم إلى أحد المشاه",
+        "leave_it_at_my_door": "اترك عند الباب",
+        "contact-receiver": "اتصل بالمستلم"
     },
-    "info": {
-      "away": {
-        "_title": "بعيد",
-        "description": "يرجى العودة إلى المخزن لتتمكن من تلقي إشعارات الطلبات الجديدة",
-        "title": "انت بعيد عن المخزن"
-      },
-      "dropoff-zone": {
-        "_title": "منطقة تسليم الطلب",
-        "description": "يرجى العودة إلى منطقة تسليم الطلب لتتمكن من استقبال إشعارات الطلبات الجديدة.",
-        "title": "أنت بعيد عن منطقة تسليم الطلب!"
-      },
-      "warehouse": {
-        "_title": "مخزن",
-        "description": "",
-        "title": " الرجاء العودة الي المخزن"
-      }
+    "delivery-history": {
+        "_title": "سجل التوصيل",
+        "filter": "اختار",
+        "no-data": "لاتوجد بيانات",
+        "cod": " نقدا ",
+        "prepaid": "مسبق الدفع",
+        "customer-tip": "بقشيش:",
+        "filter-orders": "اختار الطلبات",
+        "all-orders": "كل الطلبات",
+        "order-with-collected-cash": "الطلبات نقدا",
+        "arder-as-associate-driver": "طلبات مساعدة",
+        "order-with-tips": "طلبات مع بقشيش",
+        "return-pickups": "استلام مرتجع",
+        "subtitle": "سجل التوصيل في آخر 24 ساعة"
     },
-    "location": {
-      "permission": {
-        "_title": "اذن",
-        "description": "يرجي التاكد من تفعيل تحسين دقة الموقع علي جهازك الاندرويد",
-        "title": "خدمات الموقع غير مفعلة"
-      },
-      "fake-gps": {
-        "_title": "نظام تحديد موقع مزيف",
-        "description": "يرجى إيقاف تشغيل أي تطبيقات تغير معلومات موقع GPS (FakeGPS ، Mock Locations ، إلخ). تم الإبلاغ عن هذا الحادث إلى مدير المخزن",
-        "title": "تم اكتشاف نظام تحديد موقع مزيف"
-      }
+    "delivery-proof": {
+        "_title": "سلمت الطلب للعميل أم تركت عند الباب ؟",
+        "delivery-proof": "إثبات التسليم",
+        "delivery-proof-required": "مطلوب إثبات التسليم",
+        "failed": "فشل",
+        "message": "هل قمت بتسليم الطلب - شخصيًا - إلى العميل ، أم تركت الطلب عند الباب؟",
+        "handed-to-customer": "قمت بالتسليم للعميل",
+        "left-by-the-door": "تركت الطلب عند الباب",
+        "no-photo": "لم يتم إضافة أي صورة حتى الآن",
+        "upload-from-gallery": "اضافة من المعرض",
+        "take-photo": "التقط صورة",
+        "add-more-photos": "اضف المزيد من الصور",
+        "error-title": "تجاوز حد الصور",
+        "error-message": "يمكنك تحميل 3 صور فقط"
     },
-    "new-order-arrived": {
-      "_title": "طلب جديد بانتظارك",
-      "description": "يرجي التواصل مع المخزن لاستلام الطلب "
+    "delivery-summary": {
+        "_title": "ملخص التوصيل",
+        "associate-deliveries": "توصيلات مساعدة",
+        "attendance": "الحضور",
+        "average-time": "متوسط الوقت",
+        "checked-in-days": "ايام التسجيل",
+        "day": "يوم",
+        "days": "ايام",
+        "day-starts-at-6am": "يبدأ اليوم في الساعة {{time}} صباحًا.",
+        "day-will-start-after-6am": "اليوم / الشهر التالي سيبا الساعة ٠٦:٠٠ ص",
+        "cash": "الدفع النقدي",
+        "cash_deposits": "الايداع النقدي",
+        "delivery": "التوصيل",
+        "deliveries": "التوصيلات",
+        "filter": "اختار",
+        "filter-orders": "اختر عرض التاريخ للتفضيل",
+        "future-date": "التاريخ / الشهر في المستقبل غير مسموح به",
+        "hours": "ساعة",
+        "jobs": "المهمات",
+        "max-time": "أقصى وقت",
+        "min": "دقيقة",
+        "month": "شهر",
+        "orders": "طلب",
+        "primary-deliveries": "توصيلات أساسية",
+        "return-pickups": "استلام مرتجع",
+        "subtitle": "ملخص التوصيل يوم/شهر",
+        "tips": "البقشيش",
+        "total-check-in-time": "اجمالي وقت التسجيل",
+        "total-cash-collected": "إجمالي المبالغ المحصلة",
+        "total-cash-deposited": "إجمالي الإيداع النقدي",
+        "total-tips": "اجمالي الطلب(قبل وبعد التوصيل)",
+        "tips-info-title": "دورة توزيع البقشيش",
+        "tips-info-message": "اجمالي البقشيش سوف يودع في حسابك يوم ١٥ من الشهر اللاحق",
+        "x-hrs": "<time>{{time}}</time> ساعة",
+        "x-min": "<time>{{time}}</time> دقيقة"
     },
-    "otp": {
-      "_title": "ادخل رمز التوصيل",
-      "message": "هذا الطلب يتطلب رمز تسليم.\nيرجى طلب الرمز من العميل.",
-      "info": "يمكن للعميل العثور على الرمز من خلال الانتقال إلى:\nتتبع الطلب وحسابي > الطلبات > الطلب الحالي",
-      "error-message": "يجب ادخال {{digits}} ارقام",
-      "info-title": "كيف تجد كود التوصيل؟",
-      "info-message": "يرجى إبلاغ العميل بالتحقق من صفحة تتبع الطلب الخاصة به في تطبيق noon minutes."
+    "error": {
+        "_title": "خطا",
+        "bank-list": "قائمة البنك",
+        "bank-transfer": "حوالة بنكية",
+        "check-in-out": " لا يمكنك {{status}}  لديك مهمه توصيل نشطة ",
+        "call-reasons": "لم نتمكن من الحصول على سبب اتصال العميل",
+        "contact-customer": "اتصل بالعميل",
+        "empty-partner-list": "قائمة الشريك فارغة",
+        "firebase-token-error": "خطأ في رمز Firebase",
+        "invalid-otp": "غير متاح OTP",
+        "invalid-number": "  رقم {{type}} غير متاح .",
+        "location": "موقع خاطئ",
+        "max-limit-reached": "يمكنك تحميل ايصال واحد فقط",
+        "otp": "OTP خطأ",
+        "partner-list": "قائمة الشريك",
+        "polygon": "Polygon",
+        "qr-code": "QR كود",
+        "receipt": "ايصال",
+        "select-partner": "قم باختيار شريك",
+        "signed-url": "Signed Url",
+        "scan": "خطا مسح",
+        "scan-package": "مسح الطرود",
+        "scan-packages": "مسح الطرود",
+        "theres-no-user-account-associated-with-this-number-or-your-account-has-been-disabled": "لا يوجد حساب مستخدم مرتبط بهذا الرقم، أو أن حسابك تم تعطيله",
+        "update-online-state": "تحديث الحالة عبر الإنترنت",
+        "unable-load-reasons": "اسباب عدم القدرة علي التحميل",
+        "unable-call-reason": "غير قادر على إرسال سبب اتصال العميل",
+        "user-info": "بيانات العميل",
+        "whatsapp-not-found": "لا يوجد واتساب في هذا الهاتف",
+        "wrong-package-scanned": "تم مسح طرد خاطئ",
+        "da-state": "حالة السائق",
+        "scan-error": "خطأ في المسح",
+        "unable-to-return-reasons": "أسباب عدم القدرة على العودة",
+        "undelivered-reasons": "أسباب عدم التسليم",
+        "geo-fence": "أنت على بعد {{distance}} من موقع العميل. يُرجى الانتقال إلى مسافة {{thresholdedDistance}} متر من موقع العميل والمحاولة مرة أخرى."
     },
-    "otp-help-screen": {
-      "arriving-order": "طلبات قيد التوصيل",
-      "banner": "بانر",
-      "confirm-the-code": "تأكيد الرمز",
-      "for-the-current-order-select": "لتحديد الطلب الحالي",
-      "minutes-title": "كود توصيل العميل",
-      "my-accounts": "حساباتي",
-      "on-the-noon-app-navigate-to": "على تطبيق Noon، انتقل إلى",
-      "on-the-noon-in-minutes-app-tap-on-the": "على تطبيق Noon in Minutes، انقر على",
-      "orders": "الطلبات",
-      "present-the-code-to-the-delivery-agent-to-receive-your-items": "قدّم الرمز لموظف التوصيل لاستلام طلباتك",
-      "rocket-title": "أين يمكنني العثور على رمز التوصيل الخاص بي؟",
-      "share-the-code": "مشاركة الرمز",
-      "tap-arriving-order": "اضغط  علي طلبات قيد التوصيل",
-      "tap-on": "اضغط على",
-      "view-delivery-code": "عرض رمز التوصيل"
+    "permissions": {
+        "background": {
+            "_title": " اذن الموقع في الخلفية",
+            "buttonNeutral": "اسالني لاحقا",
+            "buttonNegative": "االغاء",
+            "buttonPositive": "السماح",
+            "message": "الاذن بمعرفة الموقع في الخلفية"
+        },
+        "foreground": {
+            "_title": "اذن الموقع",
+            "buttonNeutral": "اسالني لاحقا",
+            "buttonNegative": "االغاء",
+            "buttonPositive": "السماح",
+            "message": "الاذن بمعرفة الموقع"
+        },
+        "notification": {
+            "_title": "إذن الإشعارات",
+            "buttonNeutral": "اسالني لاحقا",
+            "buttonNegative": "االغاء",
+            "buttonPositive": "السماح",
+            "message": "السماح بالوصول إلى الإشعارات"
+        },
+        "signal-not-available": "الاشارة غير متاحة"
     },
-    "order-details": {
-      "_title": "تفاصيل الطلب",
-      "amount-collect": "مبلغ للجمع",
-      "order-cancellation-requested": "تم طلب إلغاء الطلب",
-      "order-cancellation-requested-message": "يرجى <bold>مسح الطرد</bold> لتأكيد الإلغاء.",
-      "arrived-at-location": "وصلت إلى الموقع",
-      "call": "اتصل",
-      "customer-details": "تفاصيل العميل",
-      "contact-customer": "اتصل بالعميل",
-      "customer-preferences": "تفضيلات العميل",
-      "confirm-cancellation": "تاكيد الالغاء",
-      "direction": "الاتجاه",
-      "description": "تفاصيل الطلب",
-      "package": "طَرد",
-      "please-attempt-to-contact-the-receiver-first": "يرجى محاولة الاتصال بالمستلم أولاً",
-      "package-info": {
-        "order-packages": "طلب حزم"
-      },
-      "receiver-name": "اسم المستلم (جهة الإتصال الاولى)",
-      "swipe-mark-arrived": "اسحب لتاكيد الوصول الي الموقع",
-      "swipe-to-verify": "اسحب للتحقق من العميل",
-      "swipe-mark-delivered": "اسحب لتأكيد التوصيل",
-      "too-far-location-heading": "بعيد جدا عن الموقع",
-      "too-far-location-message": "انت علي بعد <bold>{{distance}}</bold> من موقع العميل .هل انت متاكد سوف تجعل حالة الطلب  {{action}}.",
-      "order-preferences": "تفضيلات الطلب:",
-      "orders-to-scan": "طلبات للمسح",
-      "delivery-notes": "ملاحظات التوصيل:",
-      "contact-manager": "الاتصال بالمدير",
-      "contact-warehouse": "الاتصال بالمخزن",
-      "dropoff-zone-details": "تفاصيل منطقة التسليم",
-      "scan-order": "مسح الطلب",
-      "swipe-arrived-at-location": "اسحب للوصول إلى الموقع",
-      "swipe-drop-off": "اسحب للتسليم",
-      "swipe-if-already-delivered": "اسحب إذا تم التسليم بالفعل",
-      "wait-for-runner-pickup": "انتظر استلام أحد المشاه",
-      "whatsapp": "الواتساب"
+    "mandatory-update": {
+        "description": "تحتاج إلى تحديث التطبيق قبل استخدامه.",
+        "new-version": "يتوفر إصدار جديد من هذا التطبيق.",
+        "required-app-update": "طلب تحديث التطبيق",
+        "update-app": "تحديث التطبيق"
     },
-    "picked-up-orders": {
-      "_title": "الطلبات المستلمة",
-      "amount-recieve": "ارجو تاكيد استلام <bold>{{amount}} درهم<bold>",
-      "confirm-amount": "تاكيد المبلغ",
-      "delivering-orders": "تسليم الطلبات",
-      "mark-undelivered": "قم بجعل الطلب لم يصل",
-      "mark-undelivered-message": "سوف تجعل الطلب لم يصل. هل انت متاكد ؟",
-      "preferences": "التفضيلات",
-      "scanned-orders": "الطلبات الممسوحة",
-      "swipe-start": "اسحب لتبدأ",
-      "undelivered-orders": "لديك طلبات لم تصل",
-      "undelivered-orders-description": "يرجى تسليم الطرود التي لم يتم تسليمها لتتمكن من استلام الطلبات الجديدة"
+    "modals": {
+        "batched": {
+            "_title": "تم العثور على طلبات مجمعة",
+            "message": "يرجى التحقق من الطلبات المجمعة"
+        },
+        "cancelled-request": {
+            "_title": "طلب الإلغاء",
+            "message": "تم طلب إلغاء الطلب. يرجى مراجعة تفاصيل الطلب."
+        },
+        "confirmation": {
+            "_title": "نافذة التأكيد",
+            "message": "هل أنت متأكد؟"
+        },
+        "notice": {
+            "_title": "تنويه",
+            "back": "رجوع",
+            "call-anyway": "اتصل على أي حال",
+            "message": "طلب هذا العميل عدم الاتصال به ما لم يكن عاجلاً."
+        },
+        "reasons": {
+            "undelivered": {
+                "_title": "لم تصل",
+                "codes": {
+                    "customer_address_inaccessible": "عنوان العميل غير قابل للوصول أو غير صحيح",
+                    "too_far_location": "موقع العميل بعيد جدًا."
+                }
+            },
+            "unable-to-return": {
+                "_title": "غير قادر علي الرجوع",
+                "unable-to-return-to-wh": "غير قادر على العودة إلى المستودع",
+                "codes": {
+                    "shift_ended": "انتهت نوبتي."
+                },
+                "warning-msg": "سيتم إنهاء إجراءات خروجك من المستودع."
+            },
+            "contact-customer": {
+                "_title": "سبب الاتصال بالعميل",
+                "are-you-sure-you-want-to-call-the-customer": "هل أنت متأكد أنك ترغب في {{contactType}} العميل؟",
+                "contact-type": {
+                    "call": "اتصال",
+                    "whatsapp_message": "رسالة"
+                },
+                "codes": {
+                    "address_location_issues": "مشاكل بالعنوان/الموقع",
+                    "missing_address_details": "التفاصيل المفقودة",
+                    "need_gate_access": "مشكلة في البوابة/الأمن",
+                    "no_answer_at_door": "لا يوجد رد عند الباب",
+                    "other": "آخر",
+                    "unable_to_reach_location": "علامة العنوان غير دقيقة"
+                },
+                "leave-at-door-message": "لقد طلب العميل <bold>ترك الطلب عند الباب</bold>. هل لا تزال ترغب في {{contactType}}هم؟",
+                "need_gate_access": "بحاجة إلى الوصول عبر البوابة/الأمن",
+                "no_answer_at_door": "لا توجد إجابة عند الباب",
+                "other-issue": "مشكلة أخرى",
+                "please-describe-your-issue": "من فضلك صف مشكلتك.",
+                "type-your-text-here": "اكتب نصك هنا"
+            }
+        },
+        "safety-gear": {
+            "_title": "معدات السلامة",
+            "heading": "السلامة أولاً",
+            "message": "تذكر أن ترتدي معدات الحماية الخاصة بك عند كل عملية توصيل."
+        }
     },
-    "ready": {
-      "_title": "جاهز",
-      "online": {
-        "_title": " جاهز",
-        "online-ready": "متصل و جاهز",
-        "description": "يرجى الانتقال إلى محطة الالتقاط",
-        "looking-for-new-orders": "البحث عن طلب جديد"
-      },
-      "offline": {
-        "_title": "انت غير متصل",
-        "description": "برجاء الاتصال لتلقي طلب جديد"
-      },
-      "pick-up-queue": "قائمة الالتقاط",
-      "requeued": "تم إعادة ترتيبك",
-      "refresh": "أعد المحاولة",
-      "standby": {
-        "_title": "قيد الانتظار",
-        "description": ""
-      },
-      "swipe-pickup-order": "اسحب لالتقاط طلب",
-      "you-will-be-added-to-the-pickup-line-shortly": "سيتم إضافتك إلى صف الانتظار قريبًا",
-      "your-number-in-line": "رقمك في الصف"
+    "order-status-toast": {
+        "title": "حالة الطلب",
+        "description": " {{status}} :حالة الطلب "
     },
-    "return-wh": {
-      "_title": "العودة الي المخزن",
-      "description": "تم التوصيل الرجاء العودة الي المخزن",
-      "title": " الرجاء العودة الي المخزن",
-      "please-return-to-warehouse-by": "يرجى العودة إلى {{location}} بحلول",
-      "you-are-late-please-return-to-warehouse": "أنت متأخر!\nيرجى العودة إلى {{location}}",
-      "unable-to-return-please-contact-your-supervisor": "غير قادر على العودة؟\nيرجى الاتصال بمشرفك"
+    "profile": {
+        "cod-balance": "رصيد الدفع عند الاستلام",
+        "cod-deposit-a/c-number": "رقم حساب الإيداع عند الدفع عند الاستلام",
+        "cod-message": "مثال( XXXXXX | YYYYY )\nالرقم الاول يكون (XXXXXX)  CDM ID و الثاني يكون  {{idType}} ID (YYYYY)",
+        "check-another-warehouse": "سجل في مخزن اخر",
+        "checked-in": "مسجل",
+        "driver-id": "رقم السائق",
+        "my-profile": "الملف الشخصي",
+        "vehicle-type": "نوع المركبة"
     },
-    "verify-mot": {
-      "_title": "ترشيح وسيلة النقل",
-      "recommended-mot-message": "يمكنك تسليم هذا الطلب بواسطة <bold>{{vehicleType}}</bold>.\nيرجى التأكيد مع المشرف الخاص بك.",
-      "mot-codes": {
-        "bicycle": "دراجة",
-        "car": "سيارة",
-        "motorcycle": "دراجة نارية",
-        "runner": "أحد المشاة"
-      }
+    "shift-schedule": {
+        "_title": "جدول الورديات",
+        "close": "إغلاق",
+        "different-wh-msg": "هذه المناوبة في موقع مخزن مختلف. يرجى التحقق من الموقع قبل وقت الوردية.",
+        "directions": "الاتجاهات",
+        "end-time": "وقت الانتهاء",
+        "location": "الموقع",
+        "no-shift": "لا توجد وردية",
+        "overtime": "العمل الإضافي",
+        "shift-details": "تفاصيل الوردية",
+        "start-time": "وقت البدء",
+        "subtitle": "الورديات القادمة والماضية",
+        "today": "اليوم",
+        "warehouse": "المخزن",
+        "x-hrs": "<time>{{time}}</time> س"
     },
-    "wh-check-in": {
-      "_title": "تسجيل الدخول الي المخزن",
-      "description": "قم بمسح كود المخزن لتسجيل الدخول",
-      "scan-warehouse-dropoff-zone-code": "مسح كود المخزن",
-      "title": "من فضلك سجل الدخول الي المخزن"
+    "states": {
+        "blocked": {
+            "blocked": "لقد تم حظرك",
+            "call-ds": "اتصل بالمخزن",
+            "cod-limit": {
+                "_title": "الحد النقدي",
+                "description": "  درهم .الرجاء تسليم النقود حتي يتم رفع الحظر {{amount}} لديك اكثر من",
+                "title": "تعدي الحد النقدي"
+            },
+            "complaints": {
+                "_title": "شكاوي",
+                "description": "تلقينا شكاوى من العملاء. يرجى الاتصال بالمخزن لإلغاء الحظر",
+                "title": "شكاوي من العملاء"
+            },
+            "multi-rejections": {
+                "_title": "رفض طلبات متعدد",
+                "description": "لقد رفضت أو تجاهلت العديد من إشعارات الطلبات ، وتم حظرك لمدة 15 دقيقة",
+                "title": "رفض طلبات متعدد"
+            }
+        },
+        "common": {
+            "packages": {
+                "_title": "حزم",
+                "including-these-items": "تشمل هذه العناصر",
+                "order-with-multiple-packages": "طلب مع حزم متعددة",
+                "please-pick-up": "يرجى استلام",
+                "do-not-forget": "لا تنسَ:",
+                "confirm-package-count": "تأكيد عدد الحزم",
+                "wrong-package-count": "عدد الحزم غير صحيح"
+            }
+        },
+        "customer-id": {
+            "_title": "مطلوب بطاقة التحقق الشخصية للعميل",
+            "description": "هذا الطلب يتطلب التحقق من البطاقة الشخصية للعميل. يرجى التحقق من اسم العميل و أخذ صورة لبطاقة التحقق الشخصية.",
+            "customer-name": "اسم العميل:",
+            "add-customer-id-photos": "إضافة صورة بطاقة تحقق الشخصية للعميل",
+            "take-photo": "التقاط صورة",
+            "add-photo": "إضافة صورة",
+            "you-exceeded-images-count-limit": "لقد تجاوزت الحد الأقصى لعدد الصور",
+            "images-limit": "العدد الأقصي للصور"
+        },
+        "info": {
+            "away": {
+                "_title": "بعيد",
+                "description": "يرجى العودة إلى المخزن لتتمكن من تلقي إشعارات الطلبات الجديدة",
+                "title": "انت بعيد عن المخزن"
+            },
+            "dropoff-zone": {
+                "_title": "منطقة تسليم الطلب",
+                "description": "يرجى العودة إلى منطقة تسليم الطلب لتتمكن من استقبال إشعارات الطلبات الجديدة.",
+                "title": "أنت بعيد عن منطقة تسليم الطلب!"
+            },
+            "warehouse": {
+                "_title": "مخزن",
+                "description": "",
+                "title": " الرجاء العودة الي المخزن"
+            }
+        },
+        "location": {
+            "permission": {
+                "_title": "اذن",
+                "description": "يرجي التاكد من تفعيل تحسين دقة الموقع علي جهازك الاندرويد",
+                "title": "خدمات الموقع غير مفعلة"
+            },
+            "fake-gps": {
+                "_title": "نظام تحديد موقع مزيف",
+                "description": "يرجى إيقاف تشغيل أي تطبيقات تغير معلومات موقع GPS (FakeGPS ، Mock Locations ، إلخ). تم الإبلاغ عن هذا الحادث إلى مدير المخزن",
+                "title": "تم اكتشاف نظام تحديد موقع مزيف"
+            }
+        },
+        "new-order-arrived": {
+            "_title": "طلب جديد بانتظارك",
+            "description": "يرجي التواصل مع المخزن لاستلام الطلب "
+        },
+        "otp": {
+            "_title": "ادخل رمز التوصيل",
+            "message": "هذا الطلب يتطلب رمز تسليم.\nيرجى طلب الرمز من العميل.",
+            "info": "يمكن للعميل العثور على الرمز من خلال الانتقال إلى:\nتتبع الطلب وحسابي > الطلبات > الطلب الحالي",
+            "error-message": "يجب ادخال {{digits}} ارقام",
+            "info-title": "كيف تجد كود التوصيل؟",
+            "info-message": "يرجى إبلاغ العميل بالتحقق من صفحة تتبع الطلب الخاصة به في تطبيق noon minutes."
+        },
+        "otp-help-screen": {
+            "arriving-order": "طلبات قيد التوصيل",
+            "banner": "بانر",
+            "confirm-the-code": "تأكيد الرمز",
+            "for-the-current-order-select": "لتحديد الطلب الحالي",
+            "minutes-title": "كود توصيل العميل",
+            "my-accounts": "حساباتي",
+            "on-the-noon-app-navigate-to": "على تطبيق Noon، انتقل إلى",
+            "on-the-noon-in-minutes-app-tap-on-the": "على تطبيق Noon in Minutes، انقر على",
+            "orders": "الطلبات",
+            "present-the-code-to-the-delivery-agent-to-receive-your-items": "قدّم الرمز لموظف التوصيل لاستلام طلباتك",
+            "rocket-title": "أين يمكنني العثور على رمز التوصيل الخاص بي؟",
+            "share-the-code": "مشاركة الرمز",
+            "tap-arriving-order": "اضغط  علي طلبات قيد التوصيل",
+            "tap-on": "اضغط على",
+            "view-delivery-code": "عرض رمز التوصيل"
+        },
+        "order-details": {
+            "_title": "تفاصيل الطلب",
+            "amount-collect": "مبلغ للجمع",
+            "order-cancellation-requested": "تم طلب إلغاء الطلب",
+            "order-cancellation-requested-message": "يرجى <bold>مسح الطرد</bold> لتأكيد الإلغاء.",
+            "arrived-at-location": "وصلت إلى الموقع",
+            "call": "اتصل",
+            "customer-details": "تفاصيل العميل",
+            "contact-customer": "اتصل بالعميل",
+            "customer-preferences": "تفضيلات العميل",
+            "confirm-cancellation": "تاكيد الالغاء",
+            "direction": "الاتجاه",
+            "description": "تفاصيل الطلب",
+            "package": "طَرد",
+            "please-attempt-to-contact-the-receiver-first": "يرجى محاولة الاتصال بالمستلم أولاً",
+            "package-info": {
+                "order-packages": "طلب حزم"
+            },
+            "receiver-name": "اسم المستلم (جهة الإتصال الاولى)",
+            "swipe-mark-arrived": "اسحب لتاكيد الوصول الي الموقع",
+            "swipe-to-verify": "اسحب للتحقق من العميل",
+            "swipe-mark-delivered": "اسحب لتأكيد التوصيل",
+            "too-far-location-heading": "بعيد جدا عن الموقع",
+            "too-far-location-message": "انت علي بعد <bold>{{distance}}</bold> من موقع العميل .هل انت متاكد سوف تجعل حالة الطلب  {{action}}.",
+            "order-preferences": "تفضيلات الطلب:",
+            "orders-to-scan": "طلبات للمسح",
+            "delivery-notes": "ملاحظات التوصيل:",
+            "contact-manager": "الاتصال بالمدير",
+            "contact-warehouse": "الاتصال بالمخزن",
+            "dropoff-zone-details": "تفاصيل منطقة التسليم",
+            "scan-order": "مسح الطلب",
+            "swipe-arrived-at-location": "اسحب للوصول إلى الموقع",
+            "swipe-drop-off": "اسحب للتسليم",
+            "swipe-if-already-delivered": "اسحب إذا تم التسليم بالفعل",
+            "wait-for-runner-pickup": "انتظر استلام أحد المشاه",
+            "whatsapp": "الواتساب"
+        },
+        "picked-up-orders": {
+            "_title": "الطلبات المستلمة",
+            "amount-recieve": "ارجو تاكيد استلام <bold>{{amount}} درهم<bold>",
+            "confirm-amount": "تاكيد المبلغ",
+            "delivering-orders": "تسليم الطلبات",
+            "mark-undelivered": "قم بجعل الطلب لم يصل",
+            "mark-undelivered-message": "سوف تجعل الطلب لم يصل. هل انت متاكد ؟",
+            "preferences": "التفضيلات",
+            "scanned-orders": "الطلبات الممسوحة",
+            "swipe-start": "اسحب لتبدأ",
+            "undelivered-orders": "لديك طلبات لم تصل",
+            "undelivered-orders-description": "يرجى تسليم الطرود التي لم يتم تسليمها لتتمكن من استلام الطلبات الجديدة"
+        },
+        "ready": {
+            "_title": "جاهز",
+            "online": {
+                "_title": " جاهز",
+                "online-ready": "متصل و جاهز",
+                "description": "يرجى الانتقال إلى محطة الالتقاط",
+                "looking-for-new-orders": "البحث عن طلب جديد"
+            },
+            "offline": {
+                "_title": "انت غير متصل",
+                "description": "برجاء الاتصال لتلقي طلب جديد"
+            },
+            "pick-up-queue": "قائمة الالتقاط",
+            "requeued": "تم إعادة ترتيبك",
+            "refresh": "أعد المحاولة",
+            "standby": {
+                "_title": "قيد الانتظار",
+                "description": ""
+            },
+            "swipe-pickup-order": "اسحب لالتقاط طلب",
+            "you-will-be-added-to-the-pickup-line-shortly": "سيتم إضافتك إلى صف الانتظار قريبًا",
+            "your-number-in-line": "رقمك في الصف"
+        },
+        "return-wh": {
+            "_title": "العودة الي المخزن",
+            "description": "تم التوصيل الرجاء العودة الي المخزن",
+            "title": " الرجاء العودة الي المخزن",
+            "please-return-to-warehouse-by": "يرجى العودة إلى {{location}} بحلول",
+            "you-are-late-please-return-to-warehouse": "أنت متأخر!\nيرجى العودة إلى {{location}}",
+            "unable-to-return-please-contact-your-supervisor": "غير قادر على العودة؟\nيرجى الاتصال بمشرفك"
+        },
+        "verify-mot": {
+            "_title": "ترشيح وسيلة النقل",
+            "recommended-mot-message": "يمكنك تسليم هذا الطلب بواسطة <bold>{{vehicleType}}</bold>.\nيرجى التأكيد مع المشرف الخاص بك.",
+            "mot-codes": {
+                "bicycle": "دراجة",
+                "car": "سيارة",
+                "motorcycle": "دراجة نارية",
+                "runner": "أحد المشاة"
+            }
+        },
+        "wh-check-in": {
+            "_title": "تسجيل الدخول الي المخزن",
+            "description": "قم بمسح كود المخزن لتسجيل الدخول",
+            "scan-warehouse-dropoff-zone-code": "مسح كود المخزن",
+            "title": "من فضلك سجل الدخول الي المخزن"
+        }
     }
-  }
 }
