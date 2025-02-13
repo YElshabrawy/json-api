@@ -1,616 +1,632 @@
 {
-  "new-key": "New Value",
-  "actions": {
-    "delivery": {
-      "arrived_at_delivery": {
-        "title": "Order Update",
-        "message": "Order Updated: Arrived At Delivery"
-      },
-      "automatically_in_transit": {
-        "title": "Order Update",
-        "message": "Order Updated: Automatically moved into transit"
-      },
-      "automatically_picked_up": {
-        "title": "Order Update",
-        "message": "Order Updated: Automatically Picked Up"
-      },
-      "completed": {
-        "title": "Delivery Update",
-        "message": "Delivery Updated: Completed"
-      },
-      "delivered": {
-        "title": "Order Update",
-        "message": "Order Updated: Delivered"
-      },
-      "dropped_off": {
-        "title": "Order Update",
-        "message": "Order Updated: Dropped Off"
-      },
-      "in_transit": {
-        "title": "Order Update",
-        "message": "Order Updated: In Transit"
-      },
-      "picked_up": {
-        "title": "Order Update",
-        "message": "Order Updated: Picked Up"
-      },
-      "unable_to_return": {
-        "title": "Unable To Return",
-        "message": "Unable To Return"
-      },
-      "undelivered": {
-        "title": "Order Update",
-        "message": "Order Updated: Undelivered"
-      }
-    },
-    "return": {
-      "arrived_at_delivery": {
-        "message": "Return Updated: Arrived At Delivery",
-        "title": "Return Update"
-      },
-      "completed": {
-        "message": "Delivery Updated: Completed",
-        "title": "Delivery Update"
-      },
-      "delivered": {
-        "message": "Return Updated: Delivered",
-        "title": "Return Update"
-      },
-      "picked_up": {
-        "message": "Return picked up successfully",
-        "title": "Return Update"
-      },
-      "undelivered": {
-        "message": "Return Updated: Undelivered",
-        "title": "Return Update"
-      }
-    }
-  },
-  "app-menu": {
-    "_title": "Menu",
-    "cash-deposit": "Cash Deposit",
-    "cash-deposit-proof": "Submit Proof of Cash Deposit",
-    "cash-relay": "Cash Relay",
-    "language": "Change Language",
-    "more": "More",
-    "my-status": "MY STATUS",
-    "new-app-update": "New app update",
-    "online": "Online",
-    "offline": "Offline",
-    "update-online-state": "Update Online State"
-  },
-  "auth": {
-    "a-whatsapp-message": "a Whatsapp message",
-    "an-sms": "an SMS",
-    "contact-number": "What is your {{type}} Number?",
-    "description": "You will receive {{type}} with a one time password on this number, please ensure you have this number within reach!",
-    "diff-phone-number": "Use Different Phone Number",
-    "enter-contact-number": "Please enter your {{type}} number, in order to verify your identity.",
-    "enter-your-number-here": "Enter your number here",
-    "only-numbers-are-allowed": "Only Numbers are allowed!!",
-    "open-whatsapp": "Open Whatsapp",
-    "open-whatsapp-and-send-the-word-to": "Open Whatsapp and send the word <bold>{{text}}</bold> to <bold>{{number}}</bold>.",
-    "phone-login": "Continue With Phone Number",
-    "resend-code": "Resend Code",
-    "resend-otp": "Resend OTP",
-    "send-again-message": "Message not received? You can send it again in <bold>{{time}}</bold>",
-    "use-a-different-login-method": "Use a Different Login Method",
-    "verify-contact-number": "Verify {{type}} Number",
-    "verify-contact-number-message": "We have sent 6 digit code to, <bold>{{number}}</bold> please enter it below to complete verification.",
-    "whatsapp-login": "Continue With Whatsapp",
-    "login-with-otp": "Login With OTP",
-    "otp-instructions": "Please check your SMS and Whatsapp for the OTP message"
-  },
-  "camera": {
-    "audio-permission": "Permission to use audio recording",
-    "audio-permission-message": "We need your permission to use your audio",
-    "camera-permission": "Permission to use camera",
-    "camera-permission-message": "We need your permission to use your camera",
-    "no-camera-permission": "You Don't have camera permission to open camera. Please provide camera permission"
-  },
-  "cash-deposit": {
-    "amount": "Amount deposited",
-    "bank-proof": "Photo of receipt you got from the Teller or Cash Deposit Machine.",
-    "bank-name": "Bank Name",
-    "bt-proof-success-message": "Successfully Submitted",
-    "bt-proof-success": "Cash Deposit",
-    "cash-deposit-proof": "Proof of Cash Deposit",
-    "cash-deposit-proof-text": "To submit the proof of cash deposit, please enter the details of your deposit below.",
-    "cash-proof": "Submit Proof of Cash Deposit",
-    "deposit-date": "Date of deposit",
-    "no-selected-bank-error": "Please Select Bank",
-    "receipt-image-error": "Please Select Receipt Image",
-    "receipt-photo": "Receipt Photo",
-    "reference-number-error": "Please Enter Reference Number",
-    "select-photo": "Select photo",
-    "transaction-reference-number": "Transaction reference number",
-    "valid-amount-error": "Please Enter a Valid Amount",
-    "valid-date-error": "Please Select Valid Date"
-  },
-  "cash-relay": {
-    "current-cash-balance": "Current Cash Balance",
-    "heading": "Cash Relay to Cashier",
-    "message": "handover the Cash amount to the Cashier, and show the Cashier the QR code below to complete the transaction",
-    "qr-code": "Cash Relay QR Code",
-    "refresh-cash-balance": "Refresh Cash Balance"
-  },
-  "cir": {
-    "add": "Add",
-    "capture-photo": "Capture Photo",
-    "gtin": "GTIN",
-    "item-details": "Item Details",
-    "item-photos": "Item photos",
-    "mark-picked-up": "Mark Picked Up",
-    "modal-msg": "A new Return Pickup is assigned to you. Please coordinate with your supervisor before starting trip.",
-    "modal-title": "Return Pickup Assigned",
-    "no": "No",
-    "of": "of",
-    "product-attributes": "Product Attributes",
-    "qc-question": "Matching name and description?",
-    "return-check": "Return Check",
-    "return-details": "Return Details",
-    "return-nr": "Return Nr",
-    "return-pickup": "Return Pickup",
-    "return-reason": "Return Reason",
-    "scan-awb": "Scan AWB",
-    "scan-msg": "Wrap item, paste & scan AWB",
-    "serial-number": "Serial Number",
-    "step": "Step",
-    "swipe-to-start-pickup": "Swipe to start Pickup",
-    "yes": "Yes"
-  },
-  "common": {
-    "aed": "AED",
-    "cancel": "Cancel",
-    "call": "Call",
-    "call-manager": "Call Manager",
-    "check-in": "Check In",
-    "check-out": "Check Out",
-    "confirm": "Confirm",
-    "continue": "Continue",
-    "completed": "Completed",
-    "delete": "Delete",
-    "direction": "Direction",
-    "done": "Done",
-    "failed": "Failed",
-    "login": "Login",
-    "no": "No",
-    "number": "Number",
-    "ok": "OK",
-    "order-update": "Order Update",
-    "pending": "Pending",
-    "phone": "Phone",
-    "phone-number": "Phone",
-    "retry": "Retry",
-    "sign-out": "Sign Out",
-    "staging": "- Staging",
-    "submit": "Submit",
-    "support": "Support",
-    "uploading": "Uploading",
-    "version": "Version",
-    "whatsapp": "Whatsapp",
-    "whatsapp-number": "Whatsapp number",
-    "whatsapp-chat": "Whatsapp Chat"
-  },
-  "customer-preferences": {
-    "avoid_calling": "Avoid Calling",
-    "delivery_code_required": "Delivery Code Required",
-    "dont_leave_at_door": "Can’t leave by the Door",
-    "dont_ring_the_bell": "Don’t ring bell",
-    "handover-to-runner": "Handover to Runner",
-    "id_capture_required": "Customer ID Required",
-    "is_relay": "Handover to Runner",
-    "leave_it_at_my_door": "Leave by door",
-    "contact-receiver": "Contact Receiver"
-  },
-  "delivery-history": {
-    "_title": "Delivery History",
-    "filter": "Filter",
-    "no-data": "No Data found",
-    "cod": "COD",
-    "prepaid": "Prepaid",
-    "customer-tip": "Customer Tip:",
-    "filter-orders": "Filter Orders",
-    "all-orders": "All Orders",
-    "order-with-collected-cash": "Orders with Collected Cash",
-    "arder-as-associate-driver": "Orders as Associate Driver",
-    "order-with-tips": "Orders with Tips",
-    "return-pickups": "Return Pickups",
-    "subtitle": "Delivery History in the last 24 hours"
-  },
-  "delivery-proof": {
-    "_title": "Handed to Customer or Left by Door?",
-    "delivery-proof": "Delivery Proof",
-    "delivery-proof-required": "Delivery Proof is required",
-    "failed": "Failed",
-    "message": "Did you hand over the order -in person- to customer, or did you leave order by door?",
-    "handed-to-customer": "Handed to customer",
-    "left-by-the-door": "Left by the door",
-    "no-photo": " No photo was added yet",
-    "upload-from-gallery": "Upload from gallery",
-    "take-photo": "Take photo",
-    "add-more-photos": "Add More Photos",
-    "error-title": "Exceed photos limit",
-    "error-message": "you can only upload 3 photos"
-  },
-  "delivery-summary": {
-    "_title": "Delivery Summary",
-    "associate-deliveries": "Associate Deliveries",
-    "attendance": "Attendance",
-    "average-time": "Average time",
-    "cash": "Cash",
-    "cash_deposits": "Cash Deposits",
-    "checked-in-days": "Checked-in Days",
-    "day": "Day",
-    "days": "days",
-    "day-starts-at-6am": "Day Starts at {{time}}am",
-    "day-will-start-after-6am": "Next Day/Month will start after 6:00am",
-    "delivery": "Delivery",
-    "deliveries": "Deliveries",
-    "filter": "Filter",
-    "filter-orders": "Choose the Date View of Preference",
-    "future-date": "Future Date/Month is not allowed",
-    "hours": "hours",
-    "jobs": "Jobs",
-    "max-time": "Maximum Time",
-    "min": "min",
-    "month": "Month",
-    "orders": "Orders",
-    "primary-deliveries": "Primary Deliveries",
-    "return-pickups": "Return Pickups",
-    "subtitle": "Delivery Summary of day/month",
-    "tips": "Tips",
-    "total-check-in-time": "Total Check-in Time",
-    "total-cash-collected": "Total Cash Collected",
-    "total-cash-deposited": "Total Cash Deposited",
-    "total-tips": "Total Tips (Pre-Order & Post-Order)*",
-    "tips-info-title": "Tips Payout Cycle",
-    "tips-info-message": "Total Monthly Tip will be paid the following month on the 15th to your pre-paid card.",
-    "x-hrs": "<time>{{time}}</time> hrs",
-    "x-min": "<time>{{time}}</time> min"
-  },
-  "error": {
-    "_title": "Error",
-    "bank-list": "Bank List",
-    "bank-transfer": "Bank Transfer",
-    "check-in-out": "You cannot {{status}}, you have an active delivery job",
-    "call-reasons": "we couldn't get customer call reason",
-    "contact-customer": "Contact Customer",
-    "da-state": "DA State",
-    "firebase-token-error": "Firebase Token Error",
-    "empty-partner-list": "Partner List is Empty",
-    "theres-no-user-account-associated-with-this-number-or-your-account-has-been-disabled": "There's no user account associated with this number, or your account has been disabled",
-    "invalid-otp": "Invalid OTP",
-    "invalid-number": "Invalid {{type}} Number",
-    "location": "Location Error",
-    "max-limit-reached": "You can upload only one receipt",
-    "otp": "OTP Error",
-    "partner-list": "Partner List",
-    "polygon": "Polygon",
-    "qr-code": "QR Code",
-    "receipt": "Receipt",
-    "scan": "scan",
-    "select-partner": "Select Partner",
-    "signed-url": "Signed Url",
-    "scan-error": "Scan Error",
-    "scan-package": "Scan Package",
-    "scan-packages": "Scan Packages",
-    "update-online-state": "Update Online State",
-    "unable-load-reasons": "Unable to load reasons",
-    "unable-call-reason": "Unable to send customer call reason",
-    "unable-to-return-reasons": "Unable To Return Reasons",
-    "user-info": "User Info",
-    "undelivered-reasons": "Undelivered Reasons",
-    "whatsapp-not-found": "Whatsapp not found on the device",
-    "wrong-package-scanned": "Wrong Package Scanned",
-    "geo-fence": "You are {{distance}} away from the customer location. Please move within {{thresholdedDistance}} m of the customer location and try again."
-  },
-  "permissions": {
-    "background": {
-      "_title": "Background Location Permission",
-      "buttonNeutral": "Ask Me Later",
-      "buttonNegative": "Cancel",
-      "buttonPositive": "Allow",
-      "message": "Allow Background Location Access"
-    },
-    "foreground": {
-      "_title": "Location Permission",
-      "buttonNeutral": "Ask Me Later",
-      "buttonNegative": "Cancel",
-      "buttonPositive": "Allow",
-      "message": "Allow Location Access"
-    },
-    "notification": {
-      "_title": "Notification Permission",
-      "buttonNeutral": "Ask Me Later",
-      "buttonNegative": "Cancel",
-      "buttonPositive": "Allow",
-      "message": "Allow Notification Access"
-    },
-    "signal-not-available": "Signal Not Available"
-  },
-  "mandatory-update": {
-    "description": "You need to update app before using it.",
-    "new-version": "A new version of this app is available.",
-    "required-app-update": "Required app update",
-    "update-app": "Update App"
-  },
-  "modals": {
-    "batched": {
-      "_title": "Order Batch Found",
-      "message": "Please check for batched orders"
-    },
-    "cancelled-request": {
-      "_title": "Cancellation Request",
-      "message": "Order requested to be cancelled. Please review the order details."
-    },
-    "confirmation": {
-      "_title": "Confirmation Modal",
-      "message": "Are you sure?"
-    },
-    "notice": {
-      "_title": "Notice",
-      "back": "Back",
-      "call-anyway": "Call anyway",
-      "message": "This customer has requested not to be called unless necessary."
-    },
-    "reasons": {
-      "undelivered": {
-        "_title": "Undelivered",
-        "codes": {
-          "customer_address_inaccessible": "Customer address is inaccessable or incorrect",
-          "too_far_location": "The customer location is too far"
+    "new-key": "New Value",
+    "actions": {
+        "delivery": {
+            "arrived_at_delivery": {
+                "title": "Order Update",
+                "message": "Order Updated: Arrived At Delivery"
+            },
+            "automatically_in_transit": {
+                "title": "Order Update",
+                "message": "Order Updated: Automatically moved into transit"
+            },
+            "automatically_picked_up": {
+                "title": "Order Update",
+                "message": "Order Updated: Automatically Picked Up"
+            },
+            "completed": {
+                "title": "Delivery Update",
+                "message": "Delivery Updated: Completed"
+            },
+            "delivered": {
+                "title": "Order Update",
+                "message": "Order Updated: Delivered"
+            },
+            "dropped_off": {
+                "title": "Order Update",
+                "message": "Order Updated: Dropped Off"
+            },
+            "in_transit": {
+                "title": "Order Update",
+                "message": "Order Updated: In Transit"
+            },
+            "picked_up": {
+                "title": "Order Update",
+                "message": "Order Updated: Picked Up"
+            },
+            "unable_to_return": {
+                "title": "Unable To Return",
+                "message": "Unable To Return"
+            },
+            "undelivered": {
+                "title": "Order Update",
+                "message": "Order Updated: Undelivered"
+            }
+        },
+        "return": {
+            "arrived_at_delivery": {
+                "message": "Return Updated: Arrived At Delivery",
+                "title": "Return Update"
+            },
+            "completed": {
+                "message": "Delivery Updated: Completed",
+                "title": "Delivery Update"
+            },
+            "delivered": {
+                "message": "Return Updated: Delivered",
+                "title": "Return Update"
+            },
+            "picked_up": {
+                "message": "Return picked up successfully",
+                "title": "Return Update"
+            },
+            "undelivered": {
+                "message": "Return Updated: Undelivered",
+                "title": "Return Update"
+            }
         }
-      },
-      "unable-to-return": {
-        "_title": "Unable To Return",
-        "codes": {
-          "shift_ended": "My shift is over"
-        },
-        "unable-to-return-to-wh": "Unable to return to warehouse",
-        "warning-msg": "You will be checked out from the warehouse."
-      },
-      "contact-customer": {
-        "_title": "Contact Customer Reason",
-        "are-you-sure-you-want-to-call-the-customer": "Are you sure you want to {{contactType}} the customer?",
-        "contact-type": {
-          "call": "call",
-          "whatsapp_message": "message"
-        },
-        "codes": {
-          "address_location_issues": "Address/Location Issues",
-          "missing_address_details": "Missing Details",
-          "need_gate_access": "Gate/Security Issue",
-          "no_answer_at_door": "No Answer at The Door",
-          "other": "Other",
-          "unable_to_reach_location": "Inaccurate Pin"
-        },
-        "leave-at-door-message": "The customer has requested to <bold>leave the order at the door</bold>. Do you still wish to {{contactType}} them?.",
-        "need_gate_access": "Need Gate/Security Access",
-        "no_answer_at_door": "No answer at door",
-        "other-issue": "Other issue",
-        "please-describe-your-issue": "Please describe your issue",
-        "type-your-text-here": "Type text here"
-      }
     },
-    "safety-gear": {
-      "_title": "Safety Gear",
-      "heading": "Safety First!",
-      "message": "Remember to wear your protective gear on every delivery."
-    }
-  },
-  "order-status-toast": {
-    "title": "Order Update",
-    "description": "Order Updated: {{status}}"
-  },
-  "profile": {
-    "cod-balance": "Outstanding COD Balance",
-    "cod-deposit-a/c-number": "COD Deposit Account Number",
-    "cod-message": "ex) XXXXXX | YYYYY\nFirst number (XXXXXX) is the CDM ID and the second is the {{idType}} ID (YYYYY)",
-    "check-another-warehouse": "Check in another warehouse",
-    "checked-in": "Checked In",
-    "driver-id": "Driver ID",
-    "my-profile": "My Profile",
-    "vehicle-type": "Vehicle Type"
-  },
-  "states": {
-    "blocked": {
-      "blocked": "You're blocked!",
-      "call-ds": "Call Darkstore",
-      "cod-limit": {
-        "_title": "COD Limit",
-        "description": "you carry over AED {{amount}} of COD cash. Please deposit COD cash to get unblocked.",
-        "title": "COD Cash Limit Exceeded"
-      },
-      "complaints": {
-        "_title": "Complaints",
-        "description": "We received complains from customers. Please contact darkstore to get unblocked.",
-        "title": "Customer Complaints"
-      },
-      "multi-rejections": {
-        "_title": "Multiple Order Rejections",
-        "description": "You rejected or ignored multiple order notifications, you were blocked for 15 minutes.",
-        "title": "Multiple Order Rejections"
-      }
+    "app-menu": {
+        "_title": "Menu",
+        "cash-deposit": "Cash Deposit",
+        "cash-deposit-proof": "Submit Proof of Cash Deposit",
+        "cash-relay": "Cash Relay",
+        "language": "Change Language",
+        "more": "More",
+        "my-status": "MY STATUS",
+        "new-app-update": "New app update",
+        "online": "Online",
+        "offline": "Offline",
+        "update-online-state": "Update Online State"
+    },
+    "auth": {
+        "a-whatsapp-message": "a Whatsapp message",
+        "an-sms": "an SMS",
+        "contact-number": "What is your {{type}} Number?",
+        "description": "You will receive {{type}} with a one time password on this number, please ensure you have this number within reach!",
+        "diff-phone-number": "Use Different Phone Number",
+        "enter-contact-number": "Please enter your {{type}} number, in order to verify your identity.",
+        "enter-your-number-here": "Enter your number here",
+        "only-numbers-are-allowed": "Only Numbers are allowed!!",
+        "open-whatsapp": "Open Whatsapp",
+        "open-whatsapp-and-send-the-word-to": "Open Whatsapp and send the word <bold>{{text}}</bold> to <bold>{{number}}</bold>.",
+        "phone-login": "Continue With Phone Number",
+        "resend-code": "Resend Code",
+        "resend-otp": "Resend OTP",
+        "send-again-message": "Message not received? You can send it again in <bold>{{time}}</bold>",
+        "use-a-different-login-method": "Use a Different Login Method",
+        "verify-contact-number": "Verify {{type}} Number",
+        "verify-contact-number-message": "We have sent 6 digit code to, <bold>{{number}}</bold> please enter it below to complete verification.",
+        "whatsapp-login": "Continue With Whatsapp",
+        "login-with-otp": "Login With OTP",
+        "otp-instructions": "Please check your SMS and Whatsapp for the OTP message"
+    },
+    "camera": {
+        "audio-permission": "Permission to use audio recording",
+        "audio-permission-message": "We need your permission to use your audio",
+        "camera-permission": "Permission to use camera",
+        "camera-permission-message": "We need your permission to use your camera",
+        "no-camera-permission": "You Don't have camera permission to open camera. Please provide camera permission"
+    },
+    "cash-deposit": {
+        "amount": "Amount deposited",
+        "bank-proof": "Photo of receipt you got from the Teller or Cash Deposit Machine.",
+        "bank-name": "Bank Name",
+        "bt-proof-success-message": "Successfully Submitted",
+        "bt-proof-success": "Cash Deposit",
+        "cash-deposit-proof": "Proof of Cash Deposit",
+        "cash-deposit-proof-text": "To submit the proof of cash deposit, please enter the details of your deposit below.",
+        "cash-proof": "Submit Proof of Cash Deposit",
+        "deposit-date": "Date of deposit",
+        "no-selected-bank-error": "Please Select Bank",
+        "receipt-image-error": "Please Select Receipt Image",
+        "receipt-photo": "Receipt Photo",
+        "reference-number-error": "Please Enter Reference Number",
+        "select-photo": "Select photo",
+        "transaction-reference-number": "Transaction reference number",
+        "valid-amount-error": "Please Enter a Valid Amount",
+        "valid-date-error": "Please Select Valid Date"
+    },
+    "cash-relay": {
+        "current-cash-balance": "Current Cash Balance",
+        "heading": "Cash Relay to Cashier",
+        "message": "handover the Cash amount to the Cashier, and show the Cashier the QR code below to complete the transaction",
+        "qr-code": "Cash Relay QR Code",
+        "refresh-cash-balance": "Refresh Cash Balance"
+    },
+    "cir": {
+        "add": "Add",
+        "capture-photo": "Capture Photo",
+        "gtin": "GTIN",
+        "item-details": "Item Details",
+        "item-photos": "Item photos",
+        "mark-picked-up": "Mark Picked Up",
+        "modal-msg": "A new Return Pickup is assigned to you. Please coordinate with your supervisor before starting trip.",
+        "modal-title": "Return Pickup Assigned",
+        "no": "No",
+        "of": "of",
+        "product-attributes": "Product Attributes",
+        "qc-question": "Matching name and description?",
+        "return-check": "Return Check",
+        "return-details": "Return Details",
+        "return-nr": "Return Nr",
+        "return-pickup": "Return Pickup",
+        "return-reason": "Return Reason",
+        "scan-awb": "Scan AWB",
+        "scan-msg": "Wrap item, paste & scan AWB",
+        "serial-number": "Serial Number",
+        "step": "Step",
+        "swipe-to-start-pickup": "Swipe to start Pickup",
+        "yes": "Yes"
     },
     "common": {
-      "packages": {
-        "_title": "Packages",
-        "including-these-items": "Including these items",
-        "order-with-multiple-packages": "Order with Multiple Packages",
-        "please-pick-up": "Please pick up",
-        "do-not-forget": "Don’t Forget:",
-        "confirm-package-count": "Confirm Package Count",
-        "wrong-package-count": "Wrong Package Count"
-      }
+        "aed": "AED",
+        "cancel": "Cancel",
+        "call": "Call",
+        "call-manager": "Call Manager",
+        "check-in": "Check In",
+        "check-out": "Check Out",
+        "confirm": "Confirm",
+        "continue": "Continue",
+        "completed": "Completed",
+        "delete": "Delete",
+        "direction": "Direction",
+        "done": "Done",
+        "failed": "Failed",
+        "login": "Login",
+        "no": "No",
+        "number": "Number",
+        "ok": "OK",
+        "order-update": "Order Update",
+        "pending": "Pending",
+        "phone": "Phone",
+        "phone-number": "Phone",
+        "retry": "Retry",
+        "sign-out": "Sign Out",
+        "staging": "- Staging",
+        "submit": "Submit",
+        "support": "Support",
+        "uploading": "Uploading",
+        "version": "Version",
+        "whatsapp": "Whatsapp",
+        "whatsapp-number": "Whatsapp number",
+        "whatsapp-chat": "Whatsapp Chat"
     },
-    "customer-id": {
-      "_title": "Customer ID Required",
-      "description": "This order requires verification of the customer ID.Please verify the customer name and scan their National ID.",
-      "customer-name": "customer name :",
-      "add-customer-id-photos": "Add Customer ID Photos",
-      "take-photo": "Take photo",
-      "add-photo": "Add photo",
-      "you-exceeded-images-count-limit": "you exceeded images count limit",
-      "images-limit": "images limit"
+    "customer-preferences": {
+        "avoid_calling": "Avoid Calling",
+        "delivery_code_required": "Delivery Code Required",
+        "dont_leave_at_door": "Can’t leave by the Door",
+        "dont_ring_the_bell": "Don’t ring bell",
+        "handover-to-runner": "Handover to Runner",
+        "id_capture_required": "Customer ID Required",
+        "is_relay": "Handover to Runner",
+        "leave_it_at_my_door": "Leave by door",
+        "contact-receiver": "Contact Receiver"
     },
-    "info": {
-      "away": {
-        "_title": "Away",
-        "description": "Please return to warehouse to be able to receive new order notifications.",
-        "title": "You're away from DarkStore!"
-      },
-      "dropoff-zone": {
-        "_title": "Drop Off Zone",
-        "description": "Please return to drop off zone to be able to receive new order notifications.",
-        "title": "You're away from the Dropoff Zone!"
-      },
-      "warehouse": {
-        "_title": "Warehouse",
-        "description": "",
-        "title": "Please Return to Darkstore!"
-      }
+    "delivery-history": {
+        "_title": "Delivery History",
+        "filter": "Filter",
+        "no-data": "No Data found",
+        "cod": "COD",
+        "prepaid": "Prepaid",
+        "customer-tip": "Customer Tip:",
+        "filter-orders": "Filter Orders",
+        "all-orders": "All Orders",
+        "order-with-collected-cash": "Orders with Collected Cash",
+        "arder-as-associate-driver": "Orders as Associate Driver",
+        "order-with-tips": "Orders with Tips",
+        "return-pickups": "Return Pickups",
+        "subtitle": "Delivery History in the last 24 hours"
     },
-    "location": {
-      "permission": {
-        "_title": "Permissions",
-        "description": "Please make sure that Location Services are enabled on your Android device, and “Improve Location Accuracy” is enabled.",
-        "title": "Location Services Disabled!"
-      },
-      "fake-gps": {
-        "_title": "Fake GPS",
-        "description": "Please turn off any applications that alter your GPS location information (FakeGPS, Mock Locations, etc). This incident has been reported to DarkStore Manager.",
-        "title": "Fake GPS Detected!"
-      }
+    "delivery-proof": {
+        "_title": "Handed to Customer or Left by Door?",
+        "delivery-proof": "Delivery Proof",
+        "delivery-proof-required": "Delivery Proof is required",
+        "failed": "Failed",
+        "message": "Did you hand over the order -in person- to customer, or did you leave order by door?",
+        "handed-to-customer": "Handed to customer",
+        "left-by-the-door": "Left by the door",
+        "no-photo": " No photo was added yet",
+        "upload-from-gallery": "Upload from gallery",
+        "take-photo": "Take photo",
+        "add-more-photos": "Add More Photos",
+        "error-title": "Exceed photos limit",
+        "error-message": "you can only upload 3 photos"
     },
-    "new-order-arrived": {
-      "_title": "New Order Arrived",
-      "description": "Please approach darkstore to pickup order"
+    "delivery-summary": {
+        "_title": "Delivery Summary",
+        "associate-deliveries": "Associate Deliveries",
+        "attendance": "Attendance",
+        "average-time": "Average time",
+        "cash": "Cash",
+        "cash_deposits": "Cash Deposits",
+        "checked-in-days": "Checked-in Days",
+        "day": "Day",
+        "days": "days",
+        "day-starts-at-6am": "Day Starts at {{time}}am",
+        "day-will-start-after-6am": "Next Day/Month will start after 6:00am",
+        "delivery": "Delivery",
+        "deliveries": "Deliveries",
+        "filter": "Filter",
+        "filter-orders": "Choose the Date View of Preference",
+        "future-date": "Future Date/Month is not allowed",
+        "hours": "hours",
+        "jobs": "Jobs",
+        "max-time": "Maximum Time",
+        "min": "min",
+        "month": "Month",
+        "orders": "Orders",
+        "primary-deliveries": "Primary Deliveries",
+        "return-pickups": "Return Pickups",
+        "subtitle": "Delivery Summary of day/month",
+        "tips": "Tips",
+        "total-check-in-time": "Total Check-in Time",
+        "total-cash-collected": "Total Cash Collected",
+        "total-cash-deposited": "Total Cash Deposited",
+        "total-tips": "Total Tips (Pre-Order & Post-Order)*",
+        "tips-info-title": "Tips Payout Cycle",
+        "tips-info-message": "Total Monthly Tip will be paid the following month on the 15th to your pre-paid card.",
+        "x-hrs": "<time>{{time}}</time> hrs",
+        "x-min": "<time>{{time}}</time> min"
     },
-    "otp": {
-      "_title": "Enter Delivery Code",
-      "message": "This order requires a delivery code.\nPlease ask the customer for the delivery code.",
-      "info": "Customer can find the code by going to:\nOrder Tracking & My Account > Orders > Current Order",
-      "error-message": "you should give {{digits}} numbers",
-      "info-title": "How to find Delivery Code?",
-      "info-message": "Please advise the Customer to check his/her order tracking page in their noon in minutes App. "
+    "error": {
+        "_title": "Error",
+        "bank-list": "Bank List",
+        "bank-transfer": "Bank Transfer",
+        "check-in-out": "You cannot {{status}}, you have an active delivery job",
+        "call-reasons": "we couldn't get customer call reason",
+        "contact-customer": "Contact Customer",
+        "da-state": "DA State",
+        "firebase-token-error": "Firebase Token Error",
+        "empty-partner-list": "Partner List is Empty",
+        "theres-no-user-account-associated-with-this-number-or-your-account-has-been-disabled": "There's no user account associated with this number, or your account has been disabled",
+        "invalid-otp": "Invalid OTP",
+        "invalid-number": "Invalid {{type}} Number",
+        "location": "Location Error",
+        "max-limit-reached": "You can upload only one receipt",
+        "otp": "OTP Error",
+        "partner-list": "Partner List",
+        "polygon": "Polygon",
+        "qr-code": "QR Code",
+        "receipt": "Receipt",
+        "scan": "scan",
+        "select-partner": "Select Partner",
+        "signed-url": "Signed Url",
+        "scan-error": "Scan Error",
+        "scan-package": "Scan Package",
+        "scan-packages": "Scan Packages",
+        "update-online-state": "Update Online State",
+        "unable-load-reasons": "Unable to load reasons",
+        "unable-call-reason": "Unable to send customer call reason",
+        "unable-to-return-reasons": "Unable To Return Reasons",
+        "user-info": "User Info",
+        "undelivered-reasons": "Undelivered Reasons",
+        "whatsapp-not-found": "Whatsapp not found on the device",
+        "wrong-package-scanned": "Wrong Package Scanned",
+        "geo-fence": "You are {{distance}} away from the customer location. Please move within {{thresholdedDistance}} m of the customer location and try again."
     },
-    "otp-help-screen": {
-      "arriving-order": "Arriving Order",
-      "banner": "banner",
-      "confirm-the-code": "Confirm the code",
-      "for-the-current-order-select": "For the current order select",
-      "minutes-title": "Customer Delivery Code",
-      "my-accounts": "My Accounts",
-      "on-the-noon-app-navigate-to": "On the Noon app, navigate to",
-      "on-the-noon-in-minutes-app-tap-on-the": "On the Noon in Minutes app, tap on the",
-      "orders": "Orders",
-      "present-the-code-to-the-delivery-agent-to-receive-your-items": "Present the code to the delivery agent to receive your items",
-      "rocket-title": "Where can I find my Delivery Code?",
-      "share-the-code": "Share the code",
-      "tap-arriving-order": "Tap Arriving Order",
-      "tap-on": "Tap on",
-      "view-delivery-code": "View Delivery Code"
+    "permissions": {
+        "background": {
+            "_title": "Background Location Permission",
+            "buttonNeutral": "Ask Me Later",
+            "buttonNegative": "Cancel",
+            "buttonPositive": "Allow",
+            "message": "Allow Background Location Access"
+        },
+        "foreground": {
+            "_title": "Location Permission",
+            "buttonNeutral": "Ask Me Later",
+            "buttonNegative": "Cancel",
+            "buttonPositive": "Allow",
+            "message": "Allow Location Access"
+        },
+        "notification": {
+            "_title": "Notification Permission",
+            "buttonNeutral": "Ask Me Later",
+            "buttonNegative": "Cancel",
+            "buttonPositive": "Allow",
+            "message": "Allow Notification Access"
+        },
+        "signal-not-available": "Signal Not Available"
     },
-    "order-details": {
-      "_title": "Order Details",
-      "amount-collect": "Amount to Collect",
-      "arrived-at-location": "Arrived at Location",
-      "awb-number": "AWB Number",
-      "awb-value": "{{prefix}}<bold>{{middle}}</bold>{{suffix}}",
-      "call": "Call",
-      "confirm-cancellation": "Confirm Cancellation",
-      "contact-manager": "Contact Manager",
-      "contact-customer": "Contact Customer",
-      "contact-warehouse": "Contact Warehouse",
-      "customer-details": "Customer Details",
-      "customer-preferences": "Customer Preferences",
-      "delivery-notes": "Delivery Notes:",
-      "description": "Order information",
-      "please-attempt-to-contact-the-receiver-first": "Please attempt to contact the receiver first.",
-      "direction": "Direction",
-      "dropoff-zone-details": "Dropoff Zone Details",
-      "order-cancellation-requested": "Order Cancellation Requested",
-      "order-cancellation-requested-message": "Please <bold>Scan the Package</bold> to confirm the cancellation.",
-      "order-preferences": "Order Preferences:",
-      "orders-to-scan": "Orders to Scan",
-      "package": "package(s)",
-      "package-info": {
-        "order-packages": "Order Packages"
-      },
-      "receiver-name": "Receiver Name (First Contact)",
-      "scan-order": "Scan Order Package",
-      "swipe-arrived-at-location": "Swipe to Arrived at Location",
-      "swipe-drop-off": "Swipe to Drop Off",
-      "swipe-if-already-delivered": "Swipe if already delivered",
-      "swipe-mark-arrived": "Swipe to Mark Arrived",
-      "swipe-mark-delivered": "Swipe to Mark Delivered",
-      "swipe-to-verify": "Swipe to Verify Customer",
-      "slot-number": "P<bold>{{slotValue}}</bold>",
-      "too-far-location-heading": "Too far from location",
-      "too-far-location-message": "You are <bold>{{distance}}</bold> away from the {{location}} location. Are you sure you want to mark the order as {{action}}.",
-      "wait-for-runner-pickup": "Wait For Runner Pickup",
-      "whatsapp": "Whatsapp"
+    "mandatory-update": {
+        "description": "You need to update app before using it.",
+        "new-version": "A new version of this app is available.",
+        "required-app-update": "Required app update",
+        "update-app": "Update App"
     },
-    "picked-up-orders": {
-      "_title": "Picked Up Orders",
-      "confirm-amount": "Confirm Amount",
-      "amount-recieve": "Please confirm recieving from the customer <bold>{{amount}} AED</bold>",
-      "delivering-orders": "Delivering Orders",
-      "mark-undelivered": "Mark Order as Undelivered?",
-      "mark-undelivered-message": "This will mark the Order as Undelivered. Are you sure you want to proceed?",
-      "preferences": "Preferences",
-      "scanned-orders": "Scanned Orders",
-      "swipe-start": "Swipe To Start",
-      "undelivered-orders": "You have undelivered orders",
-      "undelivered-orders-description": "Please handover undelivered packages to be able to pickup new orders!"
+    "modals": {
+        "batched": {
+            "_title": "Order Batch Found",
+            "message": "Please check for batched orders"
+        },
+        "cancelled-request": {
+            "_title": "Cancellation Request",
+            "message": "Order requested to be cancelled. Please review the order details."
+        },
+        "confirmation": {
+            "_title": "Confirmation Modal",
+            "message": "Are you sure?"
+        },
+        "notice": {
+            "_title": "Notice",
+            "back": "Back",
+            "call-anyway": "Call anyway",
+            "message": "This customer has requested not to be called unless necessary."
+        },
+        "reasons": {
+            "undelivered": {
+                "_title": "Undelivered",
+                "codes": {
+                    "customer_address_inaccessible": "Customer address is inaccessable or incorrect",
+                    "too_far_location": "The customer location is too far"
+                }
+            },
+            "unable-to-return": {
+                "_title": "Unable To Return",
+                "codes": {
+                    "shift_ended": "My shift is over"
+                },
+                "unable-to-return-to-wh": "Unable to return to warehouse",
+                "warning-msg": "You will be checked out from the warehouse."
+            },
+            "contact-customer": {
+                "_title": "Contact Customer Reason",
+                "are-you-sure-you-want-to-call-the-customer": "Are you sure you want to {{contactType}} the customer?",
+                "contact-type": {
+                    "call": "call",
+                    "whatsapp_message": "message"
+                },
+                "codes": {
+                    "address_location_issues": "Address/Location Issues",
+                    "missing_address_details": "Missing Details",
+                    "need_gate_access": "Gate/Security Issue",
+                    "no_answer_at_door": "No Answer at The Door",
+                    "other": "Other",
+                    "unable_to_reach_location": "Inaccurate Pin"
+                },
+                "leave-at-door-message": "The customer has requested to <bold>leave the order at the door</bold>. Do you still wish to {{contactType}} them?.",
+                "need_gate_access": "Need Gate/Security Access",
+                "no_answer_at_door": "No answer at door",
+                "other-issue": "Other issue",
+                "please-describe-your-issue": "Please describe your issue",
+                "type-your-text-here": "Type text here"
+            }
+        },
+        "safety-gear": {
+            "_title": "Safety Gear",
+            "heading": "Safety First!",
+            "message": "Remember to wear your protective gear on every delivery."
+        }
     },
-    "ready": {
-      "_title": "Ready",
-      "online": {
-        "_title": "Ready",
-        "online-ready": "Online & Ready",
-        "description": "Please proceed to picking station",
-        "looking-for-new-orders": "Looking for new orders"
-      },
-      "offline": {
-        "_title": "You're Offline",
-        "description": "Please go online to pick up orders"
-      },
-      "pick-up-queue": "Pick-Up Queue",
-      "refresh": "Refresh",
-      "requeued": "Requeued:",
-      "standby": {
-        "_title": "Standby",
-        "description": ""
-      },
-      "swipe-pickup-order": "Swipe to pickup order",
-      "you-will-be-added-to-the-pickup-line-shortly": "You will be added to the pickup line shortly",
-      "your-number-in-line": "Your Number In Line"
+    "order-status-toast": {
+        "title": "Order Update",
+        "description": "Order Updated: {{status}}"
     },
-    "return-wh": {
-      "_title": "Return To WH",
-      "description": "Delivery Task Complete, please return to {{location}}",
-      "title": "Please Return to {{location}}",
-      "please-return-to-warehouse-by": "Please Return to {{location}} by",
-      "you-are-late-please-return-to-warehouse": "You are Late!\nPlease Return to {{location}}",
-      "unable-to-return-please-contact-your-supervisor": "Unable to Return?\nPlease contact your supervisor"
+    "profile": {
+        "cod-balance": "Outstanding COD Balance",
+        "cod-deposit-a/c-number": "COD Deposit Account Number",
+        "cod-message": "ex) XXXXXX | YYYYY\nFirst number (XXXXXX) is the CDM ID and the second is the {{idType}} ID (YYYYY)",
+        "check-another-warehouse": "Check in another warehouse",
+        "checked-in": "Checked In",
+        "driver-id": "Driver ID",
+        "my-profile": "My Profile",
+        "vehicle-type": "Vehicle Type"
     },
-    "verify-mot": {
-      "_title": "Transport Recommendation",
-      "recommended-mot-message": "This order should be delivered by a <bold>{{vehicleType}}</bold>.\nPlease confirm with your supervisor.",
-      "mot-codes": {
-        "bicycle": "Bicycle",
-        "car": "Car",
-        "motorcycle": "MotorCycle",
-        "runner": "Runner"
-      }
+    "shift-schedule": {
+        "_title": "Shift Schedule",
+        "close": "Close",
+        "different-wh-msg": "This shift is at a different warehouse location. Please check the location before your shift time.",
+        "directions": "Directions",
+        "end-time": "End Time",
+        "location": "Location",
+        "no-shift": "No shift",
+        "overtime": "Overtime",
+        "shift-details": "Shift Details",
+        "start-time": "Start Time",
+        "subtitle": "Upcoming and Past shifts",
+        "today": "Today",
+        "warehouse": "Warehouse",
+        "x-hrs": "<time>{{time}}</time> hrs"
     },
-    "wh-check-in": {
-      "_title": "Warehouse Check In",
-      "description": "Scan warehouse code to sign in",
-      "scan-warehouse-dropoff-zone-code": "Scan warehouse or dropoff zone code",
-      "title": "Please check into a warehouse or dropoff zone"
+    "states": {
+        "blocked": {
+            "blocked": "You're blocked!",
+            "call-ds": "Call Darkstore",
+            "cod-limit": {
+                "_title": "COD Limit",
+                "description": "you carry over AED {{amount}} of COD cash. Please deposit COD cash to get unblocked.",
+                "title": "COD Cash Limit Exceeded"
+            },
+            "complaints": {
+                "_title": "Complaints",
+                "description": "We received complains from customers. Please contact darkstore to get unblocked.",
+                "title": "Customer Complaints"
+            },
+            "multi-rejections": {
+                "_title": "Multiple Order Rejections",
+                "description": "You rejected or ignored multiple order notifications, you were blocked for 15 minutes.",
+                "title": "Multiple Order Rejections"
+            }
+        },
+        "common": {
+            "packages": {
+                "_title": "Packages",
+                "including-these-items": "Including these items",
+                "order-with-multiple-packages": "Order with Multiple Packages",
+                "please-pick-up": "Please pick up",
+                "do-not-forget": "Don’t Forget:",
+                "confirm-package-count": "Confirm Package Count",
+                "wrong-package-count": "Wrong Package Count"
+            }
+        },
+        "customer-id": {
+            "_title": "Customer ID Required",
+            "description": "This order requires verification of the customer ID.Please verify the customer name and scan their National ID.",
+            "customer-name": "customer name :",
+            "add-customer-id-photos": "Add Customer ID Photos",
+            "take-photo": "Take photo",
+            "add-photo": "Add photo",
+            "you-exceeded-images-count-limit": "you exceeded images count limit",
+            "images-limit": "images limit"
+        },
+        "info": {
+            "away": {
+                "_title": "Away",
+                "description": "Please return to warehouse to be able to receive new order notifications.",
+                "title": "You're away from DarkStore!"
+            },
+            "dropoff-zone": {
+                "_title": "Drop Off Zone",
+                "description": "Please return to drop off zone to be able to receive new order notifications.",
+                "title": "You're away from the Dropoff Zone!"
+            },
+            "warehouse": {
+                "_title": "Warehouse",
+                "description": "",
+                "title": "Please Return to Darkstore!"
+            }
+        },
+        "location": {
+            "permission": {
+                "_title": "Permissions",
+                "description": "Please make sure that Location Services are enabled on your Android device, and “Improve Location Accuracy” is enabled.",
+                "title": "Location Services Disabled!"
+            },
+            "fake-gps": {
+                "_title": "Fake GPS",
+                "description": "Please turn off any applications that alter your GPS location information (FakeGPS, Mock Locations, etc). This incident has been reported to DarkStore Manager.",
+                "title": "Fake GPS Detected!"
+            }
+        },
+        "new-order-arrived": {
+            "_title": "New Order Arrived",
+            "description": "Please approach darkstore to pickup order"
+        },
+        "otp": {
+            "_title": "Enter Delivery Code",
+            "message": "This order requires a delivery code.\nPlease ask the customer for the delivery code.",
+            "info": "Customer can find the code by going to:\nOrder Tracking & My Account > Orders > Current Order",
+            "error-message": "you should give {{digits}} numbers",
+            "info-title": "How to find Delivery Code?",
+            "info-message": "Please advise the Customer to check his/her order tracking page in their noon in minutes App. "
+        },
+        "otp-help-screen": {
+            "arriving-order": "Arriving Order",
+            "banner": "banner",
+            "confirm-the-code": "Confirm the code",
+            "for-the-current-order-select": "For the current order select",
+            "minutes-title": "Customer Delivery Code",
+            "my-accounts": "My Accounts",
+            "on-the-noon-app-navigate-to": "On the Noon app, navigate to",
+            "on-the-noon-in-minutes-app-tap-on-the": "On the Noon in Minutes app, tap on the",
+            "orders": "Orders",
+            "present-the-code-to-the-delivery-agent-to-receive-your-items": "Present the code to the delivery agent to receive your items",
+            "rocket-title": "Where can I find my Delivery Code?",
+            "share-the-code": "Share the code",
+            "tap-arriving-order": "Tap Arriving Order",
+            "tap-on": "Tap on",
+            "view-delivery-code": "View Delivery Code"
+        },
+        "order-details": {
+            "_title": "Order Details",
+            "amount-collect": "Amount to Collect",
+            "arrived-at-location": "Arrived at Location",
+            "awb-number": "AWB Number",
+            "awb-value": "{{prefix}}<bold>{{middle}}</bold>{{suffix}}",
+            "call": "Call",
+            "confirm-cancellation": "Confirm Cancellation",
+            "contact-manager": "Contact Manager",
+            "contact-customer": "Contact Customer",
+            "contact-warehouse": "Contact Warehouse",
+            "customer-details": "Customer Details",
+            "customer-preferences": "Customer Preferences",
+            "delivery-notes": "Delivery Notes:",
+            "description": "Order information",
+            "please-attempt-to-contact-the-receiver-first": "Please attempt to contact the receiver first.",
+            "direction": "Direction",
+            "dropoff-zone-details": "Dropoff Zone Details",
+            "order-cancellation-requested": "Order Cancellation Requested",
+            "order-cancellation-requested-message": "Please <bold>Scan the Package</bold> to confirm the cancellation.",
+            "order-preferences": "Order Preferences:",
+            "orders-to-scan": "Orders to Scan",
+            "package": "package(s)",
+            "package-info": {
+                "order-packages": "Order Packages"
+            },
+            "receiver-name": "Receiver Name (First Contact)",
+            "scan-order": "Scan Order Package",
+            "swipe-arrived-at-location": "Swipe to Arrived at Location",
+            "swipe-drop-off": "Swipe to Drop Off",
+            "swipe-if-already-delivered": "Swipe if already delivered",
+            "swipe-mark-arrived": "Swipe to Mark Arrived",
+            "swipe-mark-delivered": "Swipe to Mark Delivered",
+            "swipe-to-verify": "Swipe to Verify Customer",
+            "slot-number": "P<bold>{{slotValue}}</bold>",
+            "too-far-location-heading": "Too far from location",
+            "too-far-location-message": "You are <bold>{{distance}}</bold> away from the {{location}} location. Are you sure you want to mark the order as {{action}}.",
+            "wait-for-runner-pickup": "Wait For Runner Pickup",
+            "whatsapp": "Whatsapp"
+        },
+        "picked-up-orders": {
+            "_title": "Picked Up Orders",
+            "confirm-amount": "Confirm Amount",
+            "amount-recieve": "Please confirm recieving from the customer <bold>{{amount}} AED</bold>",
+            "delivering-orders": "Delivering Orders",
+            "mark-undelivered": "Mark Order as Undelivered?",
+            "mark-undelivered-message": "This will mark the Order as Undelivered. Are you sure you want to proceed?",
+            "preferences": "Preferences",
+            "scanned-orders": "Scanned Orders",
+            "swipe-start": "Swipe To Start",
+            "undelivered-orders": "You have undelivered orders",
+            "undelivered-orders-description": "Please handover undelivered packages to be able to pickup new orders!"
+        },
+        "ready": {
+            "_title": "Ready",
+            "online": {
+                "_title": "Ready",
+                "online-ready": "Online & Ready",
+                "description": "Please proceed to picking station",
+                "looking-for-new-orders": "Looking for new orders"
+            },
+            "offline": {
+                "_title": "You're Offline",
+                "description": "Please go online to pick up orders"
+            },
+            "pick-up-queue": "Pick-Up Queue",
+            "refresh": "Refresh",
+            "requeued": "Requeued:",
+            "standby": {
+                "_title": "Standby",
+                "description": ""
+            },
+            "swipe-pickup-order": "Swipe to pickup order",
+            "you-will-be-added-to-the-pickup-line-shortly": "You will be added to the pickup line shortly",
+            "your-number-in-line": "Your Number In Line"
+        },
+        "return-wh": {
+            "_title": "Return To WH",
+            "description": "Delivery Task Complete, please return to {{location}}",
+            "title": "Please Return to {{location}}",
+            "please-return-to-warehouse-by": "Please Return to {{location}} by",
+            "you-are-late-please-return-to-warehouse": "You are Late!\nPlease Return to {{location}}",
+            "unable-to-return-please-contact-your-supervisor": "Unable to Return?\nPlease contact your supervisor"
+        },
+        "verify-mot": {
+            "_title": "Transport Recommendation",
+            "recommended-mot-message": "This order should be delivered by a <bold>{{vehicleType}}</bold>.\nPlease confirm with your supervisor.",
+            "mot-codes": {
+                "bicycle": "Bicycle",
+                "car": "Car",
+                "motorcycle": "MotorCycle",
+                "runner": "Runner"
+            }
+        },
+        "wh-check-in": {
+            "_title": "Warehouse Check In",
+            "description": "Scan warehouse code to sign in",
+            "scan-warehouse-dropoff-zone-code": "Scan warehouse or dropoff zone code",
+            "title": "Please check into a warehouse or dropoff zone"
+        }
     }
-  }
 }
