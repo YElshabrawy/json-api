@@ -425,7 +425,7 @@
         "start-time": "وقت البدء",
         "subtitle": "الورديات القادمة والماضية",
         "today": "اليوم",
-        "warehouse": "المخزن",
+        "warehouse-x": "{{wh}} :المخزن",
         "x-hrs": "<time>{{time}}</time> س"
     },
     "states": {
