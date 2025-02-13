@@ -404,6 +404,14 @@
         "description": "Order Updated: {{status}}"
     },
     "profile": {
+        "account-details": {
+            "_title": "Account Details",
+            "country": "Country",
+            "default-warehouse": "Default Warehouse",
+            "sa": "Saudi Arabia",
+            "uae": "United Arab Emirates",
+            "username": "Username"
+        },
         "cod-balance": "Outstanding COD Balance",
         "cod-deposit-a/c-number": "COD Deposit Account Number",
         "cod-message": "ex) XXXXXX | YYYYY\nFirst number (XXXXXX) is the CDM ID and the second is the {{idType}} ID (YYYYY)",
