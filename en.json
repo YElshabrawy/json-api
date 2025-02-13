@@ -426,7 +426,7 @@
         "start-time": "Start Time",
         "subtitle": "Upcoming and Past shifts",
         "today": "Today",
-        "warehouse": "Warehouse",
+        "warehouse-x": "Warehouse: {{wh}}",
         "x-hrs": "<time>{{time}}</time> hrs"
     },
     "states": {
