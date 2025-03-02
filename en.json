@@ -349,7 +349,10 @@
             "_title": "Deposit COD Cash!",
             "buttonText": "Continue",
             "message": "You carry over {{value}} of COD cash. Please deposit COD or your check-in will be blocked.",
-            "subtitle": "COD Cash Limit Exceeded for {{day}} day"
+            "subtitle": "COD Cash Limit Exceeded for {{day}}",
+            "less_than_a_day": "less than a day",
+            "one_day": "1 day",
+            "many_days": "{{day}} days"
         },
         "cancelled-request": {
             "_title": "Cancellation Request",
