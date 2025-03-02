@@ -1,5 +1,4 @@
 {
-    "new-key": "New Value",
     "actions": {
         "delivery": {
             "arrived_at_delivery": {
@@ -340,6 +339,18 @@
             "_title": "Order Batch Found",
             "message": "Please check for batched orders"
         },
+        "blocked": {
+            "_title": "Check in Blocked",
+            "buttonText": "Add Proof of Cash Deposit",
+            "message": "You were late to deposit your carrying COD cash limit. You carry over {{value}} of COD cash. Please deposit COD cash to get unblocked.",
+            "subtitle": "COD Cash Duration Limit Exceeded"
+        },
+        "cash-limit": {
+            "_title": "Deposit COD Cash!",
+            "buttonText": "Continue",
+            "message": "You carry over {{value}} of COD cash. Please deposit COD or your check-in will be blocked.",
+            "subtitle": "COD Cash Limit Exceeded for {{day}} day"
+        },
         "cancelled-request": {
             "_title": "Cancellation Request",
             "message": "Order requested to be cancelled. Please review the order details."
@@ -347,6 +358,10 @@
         "confirmation": {
             "_title": "Confirmation Modal",
             "message": "Are you sure?"
+        },
+        "cooker": {
+            "message": "This order requires you to pick up a cooker from the customer.",
+            "title": "Pickup Pressure Cooker"
         },
         "notice": {
             "_title": "Notice",
@@ -595,7 +610,8 @@
                 "_title": "Ready",
                 "online-ready": "Online & Ready",
                 "description": "Please proceed to picking station",
-                "looking-for-new-orders": "Looking for new orders"
+                "looking-for-new-orders": "Looking for new orders",
+                "no-orders-available": "No Orders Available for your MOT"
             },
             "offline": {
                 "_title": "You're Offline",
